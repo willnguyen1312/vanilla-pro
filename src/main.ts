@@ -1,24 +1,43 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+import "./style.css";
+/* Some variables for adding and removing content */
+const newContent =
+  "This is some new content<br><br><br><br>Look! The height changed!";
+let content = "";
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
-`
+/** This is the main content in this fiddle.
+ *  The ResizeObserver will invoke the callback when any of those
+ *. elements' dimensions change. `entries` contains all elements being observed
+ *  https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver
+ */
+const childElementObserver = new ResizeObserver((entries) => {
+  if (!entries) return;
+  const child = entries[0]; // Can observe multiple elements but we are only using this observer for one (childElement)
+  const parent = document.querySelector("#parentElement") as HTMLDivElement;
+  parent.style.height = `${child.contentRect.height}px`;
+});
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+const child = document.querySelector("#childElement") as HTMLDivElement;
+childElementObserver.observe(child); // Observing the child element
+
+/* Listeners for the buttons to add or remove content so the child container resizes */
+function moreContent() {
+  content = content + newContent;
+  child.innerHTML = content;
+  console.log("MORE", content);
+}
+
+function lessContent() {
+  content = content.slice(0, content.length - newContent.length);
+  child.innerHTML = content;
+  console.log("LESS", content);
+}
+
+const moreContentButton = document.getElementById(
+  "more-content"
+) as HTMLButtonElement;
+moreContentButton.addEventListener("click", moreContent);
+
+const lessContentButton = document.getElementById(
+  "less-content"
+) as HTMLButtonElement;
+lessContentButton.addEventListener("click", lessContent);
