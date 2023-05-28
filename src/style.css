@@ -1,6 +1,85 @@
-#parentElement {
-  height: 0;
-  overflow: overlay;
-  background: #89cff0;
-  transition: height 0.25s;
+:root {
+  --dash-width: 1rem;
+  --dash-spacing: 1rem;
+  --label-spacing: 0.5rem;
+  --label-padding: 0.5rem;
+  --label-highlight: #ff0000;
+  --active-color: #ffd700;
+}
+
+#root {
+  width: 50vw;
+  margin: auto;
+  margin-top: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.node {
+  position: relative;
+}
+
+.node.root:before {
+  content: none;
+}
+
+.node.root > .label:before {
+  content: none;
+}
+
+.node:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  border-left: 2px solid;
+  margin-left: calc(-1 * var(--dash-width) - var(--label-spacing));
+}
+
+.node.highlight:before {
+  z-index: 1;
+  border-color: var(--label-highlight);
+}
+
+.node:last-child:before {
+  content: none;
+}
+
+.node .label {
+  display: inline-block;
+  position: relative;
+  padding: var(--label-padding) 0;
+  cursor: pointer;
+}
+
+.node .label:before {
+  content: "";
+  width: var(--dash-width);
+  height: 50%;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  position: absolute;
+  margin-left: calc(-1 * var(--dash-width) - var(--label-spacing));
+  margin-top: calc(-1 * var(--label-padding));
+}
+
+.node .highlight.label:before {
+  z-index: 1;
+  border-color: var(--label-highlight);
+}
+
+.node .children {
+  position: relative;
+  margin-left: calc(var(--dash-spacing) + var(--dash-width));
+  padding-left: var(--label-spacing);
+}
+
+.active {
+  background-color: var(--active-color);
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
