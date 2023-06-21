@@ -1,6 +1,0 @@
-#parentElement {
-  height: 0;
-  overflow: overlay;
-  background: #89cff0;
-  transition: height 0.25s;
-}

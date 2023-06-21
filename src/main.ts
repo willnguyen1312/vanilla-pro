@@ -1,43 +1,21 @@
-import "./style.css";
-/* Some variables for adding and removing content */
-const newContent =
-  "This is some new content<br><br><br><br>Look! The height changed!";
-let content = "";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
 
-/** This is the main content in this fiddle.
- *  The ResizeObserver will invoke the callback when any of those
- *. elements' dimensions change. `entries` contains all elements being observed
- *  https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver
- */
-const childElementObserver = new ResizeObserver((entries) => {
-  if (!entries) return;
-  const child = entries[0]; // Can observe multiple elements but we are only using this observer for one (childElement)
-  const parent = document.querySelector("#parentElement") as HTMLDivElement;
-  parent.style.height = `${child.contentRect.height}px`;
-});
+// Create a map instance
+const map = L.map("app").setView([51.505, -0.09], 13);
 
-const child = document.querySelector("#childElement") as HTMLDivElement;
-childElementObserver.observe(child); // Observing the child element
+// Add the OpenStreetMap tile layer
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution:
+    'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+}).addTo(map);
 
-/* Listeners for the buttons to add or remove content so the child container resizes */
-function moreContent() {
-  content = content + newContent;
-  child.innerHTML = content;
-  console.log("MORE", content);
-}
+// Define the coordinates for the polyline
+const polylineCoordinates: [number, number][] = [
+  [51.505, -0.09],
+  // [51.51, -0.1],
+  [51.51, -0.12],
+];
 
-function lessContent() {
-  content = content.slice(0, content.length - newContent.length);
-  child.innerHTML = content;
-  console.log("LESS", content);
-}
-
-const moreContentButton = document.getElementById(
-  "more-content"
-) as HTMLButtonElement;
-moreContentButton.addEventListener("click", moreContent);
-
-const lessContentButton = document.getElementById(
-  "less-content"
-) as HTMLButtonElement;
-lessContentButton.addEventListener("click", lessContent);
+// Create a polyline and add it to the map
+L.polyline(polylineCoordinates, { color: "red" }).addTo(map);
