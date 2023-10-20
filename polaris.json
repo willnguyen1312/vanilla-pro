@@ -1,1514 +1,1514 @@
 {
-    "children": {
-        "coming-soon": {
-            "title": "Coming soon",
-            "slug": "/coming-soon/view-transitions",
-            "hideChildren": true,
-            "hideFromNav": false,
-            "children": {
-                "view-transitions": {
-                    "title": "Embracing the future with the View Transitions API",
-                    "description": "Merchants need tools that are not just powerful, but also intuitive. That's why we're experimenting with new ways to enhance the Shopify admin experience using the View Transitions API.",
-                    "slug": "/coming-soon/view-transitions",
-                    "hideFromNav": false
-                }
+  "children": {
+    "coming-soon": {
+      "title": "Coming soon",
+      "slug": "/coming-soon/view-transitions",
+      "hideChildren": true,
+      "hideFromNav": false,
+      "children": {
+        "view-transitions": {
+          "title": "Embracing the future with the View Transitions API",
+          "description": "Merchants need tools that are not just powerful, but also intuitive. That's why we're experimenting with new ways to enhance the Shopify admin experience using the View Transitions API.",
+          "slug": "/coming-soon/view-transitions",
+          "hideFromNav": false
+        }
+      }
+    },
+    "components": {
+      "title": "Components",
+      "icon": "AppsMajor",
+      "order": 7,
+      "slug": "/components",
+      "hideFromNav": false,
+      "children": {
+        "actions": {
+          "title": "Actions",
+          "order": 1,
+          "slug": "/components/actions",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "account-connection": {
+              "title": "Account connection",
+              "slug": "/components/actions/account-connection",
+              "hideFromNav": false
+            },
+            "button": {
+              "title": "Button",
+              "slug": "/components/actions/button",
+              "hideFromNav": false
+            },
+            "button-group": {
+              "title": "Button group",
+              "slug": "/components/actions/button-group",
+              "hideFromNav": false
+            },
+            "page-actions": {
+              "title": "Page actions",
+              "slug": "/components/actions/page-actions",
+              "hideFromNav": false
             }
+          }
         },
+        "deprecated": {
+          "title": "Deprecated",
+          "order": 12,
+          "slug": "/components/deprecated",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "caption": {
+              "title": "Caption",
+              "slug": "/components/deprecated/caption",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "display-text": {
+              "title": "Display text",
+              "slug": "/components/deprecated/display-text",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "heading": {
+              "title": "Heading",
+              "slug": "/components/deprecated/heading",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "legacy-card": {
+              "title": "Legacy card",
+              "slug": "/components/deprecated/legacy-card",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "legacy-filters": {
+              "title": "Legacy filters",
+              "slug": "/components/deprecated/legacy-filters",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "legacy-stack": {
+              "title": "Legacy stack",
+              "slug": "/components/deprecated/legacy-stack",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "legacy-tabs": {
+              "title": "Legacy tabs",
+              "slug": "/components/deprecated/legacy-tabs",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "setting-toggle": {
+              "title": "Setting toggle",
+              "slug": "/components/deprecated/setting-toggle",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "sheet": {
+              "title": "Sheet",
+              "slug": "/components/deprecated/sheet",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "subheading": {
+              "title": "Subheading",
+              "slug": "/components/deprecated/subheading",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "text-container": {
+              "title": "Text container",
+              "slug": "/components/deprecated/text-container",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "text-style": {
+              "title": "Text style",
+              "slug": "/components/deprecated/text-style",
+              "status": "Deprecated",
+              "hideFromNav": false
+            },
+            "visually-hidden": {
+              "title": "Visually hidden",
+              "slug": "/components/deprecated/visually-hidden",
+              "status": "Deprecated",
+              "hideFromNav": false
+            }
+          }
+        },
+        "feedback-indicators": {
+          "title": "Feedback indicators",
+          "order": 5,
+          "slug": "/components/feedback-indicators",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "badge": {
+              "title": "Badge",
+              "slug": "/components/feedback-indicators/badge",
+              "hideFromNav": false
+            },
+            "banner": {
+              "title": "Banner",
+              "slug": "/components/feedback-indicators/banner",
+              "hideFromNav": false
+            },
+            "exception-list": {
+              "title": "Exception list",
+              "slug": "/components/feedback-indicators/exception-list",
+              "hideFromNav": false
+            },
+            "loading": {
+              "title": "Loading",
+              "slug": "/components/feedback-indicators/loading",
+              "hideFromNav": false
+            },
+            "progress-bar": {
+              "title": "Progress bar",
+              "slug": "/components/feedback-indicators/progress-bar",
+              "hideFromNav": false
+            },
+            "skeleton-body-text": {
+              "title": "Skeleton body text",
+              "slug": "/components/feedback-indicators/skeleton-body-text",
+              "hideFromNav": false
+            },
+            "skeleton-display-text": {
+              "title": "Skeleton display text",
+              "slug": "/components/feedback-indicators/skeleton-display-text",
+              "hideFromNav": false
+            },
+            "skeleton-page": {
+              "title": "Skeleton page",
+              "slug": "/components/feedback-indicators/skeleton-page",
+              "hideFromNav": false
+            },
+            "skeleton-tabs": {
+              "title": "Skeleton tabs",
+              "slug": "/components/feedback-indicators/skeleton-tabs",
+              "hideFromNav": false
+            },
+            "skeleton-thumbnail": {
+              "title": "Skeleton thumbnail",
+              "slug": "/components/feedback-indicators/skeleton-thumbnail",
+              "hideFromNav": false
+            },
+            "spinner": {
+              "title": "Spinner",
+              "slug": "/components/feedback-indicators/spinner",
+              "hideFromNav": false
+            },
+            "toast": {
+              "title": "Toast",
+              "slug": "/components/feedback-indicators/toast",
+              "hideFromNav": false
+            }
+          }
+        },
+        "images-and-icons": {
+          "title": "Images and icons",
+          "order": 4,
+          "slug": "/components/images-and-icons",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "avatar": {
+              "title": "Avatar",
+              "slug": "/components/images-and-icons/avatar",
+              "hideFromNav": false
+            },
+            "icon": {
+              "title": "Icon",
+              "slug": "/components/images-and-icons/icon",
+              "hideFromNav": false
+            },
+            "keyboard-key": {
+              "title": "Keyboard key",
+              "slug": "/components/images-and-icons/keyboard-key",
+              "hideFromNav": false
+            },
+            "thumbnail": {
+              "title": "Thumbnail",
+              "slug": "/components/images-and-icons/thumbnail",
+              "hideFromNav": false
+            },
+            "video-thumbnail": {
+              "title": "Video thumbnail",
+              "slug": "/components/images-and-icons/video-thumbnail",
+              "hideFromNav": false
+            }
+          }
+        },
+        "layout-and-structure": {
+          "title": "Layout and structure",
+          "order": 2,
+          "slug": "/components/layout-and-structure",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "bleed": {
+              "title": "Bleed",
+              "slug": "/components/layout-and-structure/bleed",
+              "hideFromNav": false
+            },
+            "block-stack": {
+              "title": "Block stack",
+              "slug": "/components/layout-and-structure/block-stack",
+              "hideFromNav": false
+            },
+            "box": {
+              "title": "Box",
+              "slug": "/components/layout-and-structure/box",
+              "hideFromNav": false
+            },
+            "callout-card": {
+              "title": "Callout card",
+              "slug": "/components/layout-and-structure/callout-card",
+              "hideFromNav": false
+            },
+            "card": {
+              "title": "Card",
+              "slug": "/components/layout-and-structure/card",
+              "hideFromNav": false
+            },
+            "divider": {
+              "title": "Divider",
+              "slug": "/components/layout-and-structure/divider",
+              "hideFromNav": false
+            },
+            "empty-state": {
+              "title": "Empty state",
+              "slug": "/components/layout-and-structure/empty-state",
+              "hideFromNav": false
+            },
+            "form-layout": {
+              "title": "Form layout",
+              "slug": "/components/layout-and-structure/form-layout",
+              "hideFromNav": false
+            },
+            "grid": {
+              "title": "Grid",
+              "slug": "/components/layout-and-structure/grid",
+              "hideFromNav": false
+            },
+            "inline-grid": {
+              "title": "Inline grid",
+              "slug": "/components/layout-and-structure/inline-grid",
+              "hideFromNav": false
+            },
+            "inline-stack": {
+              "title": "Inline stack",
+              "slug": "/components/layout-and-structure/inline-stack",
+              "hideFromNav": false
+            },
+            "layout": {
+              "title": "Layout",
+              "slug": "/components/layout-and-structure/layout",
+              "hideFromNav": false
+            },
+            "media-card": {
+              "title": "Media card",
+              "slug": "/components/layout-and-structure/media-card",
+              "hideFromNav": false
+            },
+            "page": {
+              "title": "Page",
+              "slug": "/components/layout-and-structure/page",
+              "hideFromNav": false
+            }
+          }
+        },
+        "lists": {
+          "title": "Lists",
+          "order": 8,
+          "slug": "/components/lists",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "action-list": {
+              "title": "Action list",
+              "slug": "/components/lists/action-list",
+              "hideFromNav": false
+            },
+            "description-list": {
+              "title": "Description list",
+              "slug": "/components/lists/description-list",
+              "hideFromNav": false
+            },
+            "list": {
+              "title": "List",
+              "slug": "/components/lists/list",
+              "hideFromNav": false
+            },
+            "listbox": {
+              "title": "Listbox",
+              "slug": "/components/lists/listbox",
+              "hideFromNav": false
+            },
+            "option-list": {
+              "title": "Option list",
+              "slug": "/components/lists/option-list",
+              "hideFromNav": false
+            },
+            "resource-item": {
+              "title": "Resource item",
+              "slug": "/components/lists/resource-item",
+              "hideFromNav": false
+            },
+            "resource-list": {
+              "title": "Resource list",
+              "slug": "/components/lists/resource-list",
+              "hideFromNav": false
+            }
+          }
+        },
+        "navigation": {
+          "title": "Navigation",
+          "order": 9,
+          "slug": "/components/navigation",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "footer-help": {
+              "title": "Footer help",
+              "slug": "/components/navigation/footer-help",
+              "hideFromNav": false
+            },
+            "fullscreen-bar": {
+              "title": "Fullscreen bar",
+              "slug": "/components/navigation/fullscreen-bar",
+              "hideFromNav": false
+            },
+            "link": {
+              "title": "Link",
+              "slug": "/components/navigation/link",
+              "hideFromNav": false
+            },
+            "navigation": {
+              "title": "Navigation",
+              "slug": "/components/navigation/navigation",
+              "hideFromNav": false
+            },
+            "pagination": {
+              "title": "Pagination",
+              "slug": "/components/navigation/pagination",
+              "hideFromNav": false
+            },
+            "tabs": {
+              "title": "Tabs",
+              "slug": "/components/navigation/tabs",
+              "hideFromNav": false
+            },
+            "top-bar": {
+              "title": "Top bar",
+              "slug": "/components/navigation/top-bar",
+              "hideFromNav": false
+            }
+          }
+        },
+        "overlays": {
+          "title": "Overlays",
+          "order": 10,
+          "slug": "/components/overlays",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "modal": {
+              "title": "Modal",
+              "slug": "/components/overlays/modal",
+              "hideFromNav": false
+            },
+            "popover": {
+              "title": "Popover",
+              "slug": "/components/overlays/popover",
+              "hideFromNav": false
+            },
+            "tooltip": {
+              "title": "Tooltip",
+              "slug": "/components/overlays/tooltip",
+              "hideFromNav": false
+            }
+          }
+        },
+        "selection-and-input": {
+          "title": "Selection and input",
+          "order": 3,
+          "slug": "/components/selection-and-input",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "autocomplete": {
+              "title": "Autocomplete",
+              "slug": "/components/selection-and-input/autocomplete",
+              "hideFromNav": false
+            },
+            "checkbox": {
+              "title": "Checkbox",
+              "slug": "/components/selection-and-input/checkbox",
+              "hideFromNav": false
+            },
+            "choice-list": {
+              "title": "Choice list",
+              "slug": "/components/selection-and-input/choice-list",
+              "hideFromNav": false
+            },
+            "color-picker": {
+              "title": "Color picker",
+              "slug": "/components/selection-and-input/color-picker",
+              "hideFromNav": false
+            },
+            "combobox": {
+              "title": "Combobox",
+              "slug": "/components/selection-and-input/combobox",
+              "hideFromNav": false
+            },
+            "contextual-save-bar": {
+              "title": "Contextual save bar",
+              "slug": "/components/selection-and-input/contextual-save-bar",
+              "hideFromNav": false
+            },
+            "date-picker": {
+              "title": "Date picker",
+              "slug": "/components/selection-and-input/date-picker",
+              "hideFromNav": false
+            },
+            "drop-zone": {
+              "title": "Drop zone",
+              "slug": "/components/selection-and-input/drop-zone",
+              "hideFromNav": false
+            },
+            "filters": {
+              "title": "Filters",
+              "slug": "/components/selection-and-input/filters",
+              "hideFromNav": false
+            },
+            "form": {
+              "title": "Form",
+              "slug": "/components/selection-and-input/form",
+              "hideFromNav": false
+            },
+            "index-filters": {
+              "title": "Index filters",
+              "slug": "/components/selection-and-input/index-filters",
+              "hideFromNav": false
+            },
+            "inline-error": {
+              "title": "Inline error",
+              "slug": "/components/selection-and-input/inline-error",
+              "hideFromNav": false
+            },
+            "radio-button": {
+              "title": "Radio button",
+              "slug": "/components/selection-and-input/radio-button",
+              "hideFromNav": false
+            },
+            "range-slider": {
+              "title": "Range slider",
+              "slug": "/components/selection-and-input/range-slider",
+              "hideFromNav": false
+            },
+            "select": {
+              "title": "Select",
+              "slug": "/components/selection-and-input/select",
+              "hideFromNav": false
+            },
+            "tag": {
+              "title": "Tag",
+              "slug": "/components/selection-and-input/tag",
+              "hideFromNav": false
+            },
+            "text-field": {
+              "title": "Text field",
+              "slug": "/components/selection-and-input/text-field",
+              "hideFromNav": false
+            }
+          }
+        },
+        "tables": {
+          "title": "Tables",
+          "order": 7,
+          "slug": "/components/tables",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "data-table": {
+              "title": "Data table",
+              "slug": "/components/tables/data-table",
+              "hideFromNav": false
+            },
+            "index-table": {
+              "title": "Index table",
+              "slug": "/components/tables/index-table",
+              "hideFromNav": false
+            }
+          }
+        },
+        "typography": {
+          "title": "Typography",
+          "order": 6,
+          "slug": "/components/typography",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "text": {
+              "title": "Text",
+              "slug": "/components/typography/text",
+              "hideFromNav": false
+            }
+          }
+        },
+        "utilities": {
+          "title": "Utilities",
+          "order": 11,
+          "slug": "/components/utilities",
+          "expanded": true,
+          "hideFromNav": false,
+          "children": {
+            "app-provider": {
+              "title": "App provider",
+              "slug": "/components/utilities/app-provider",
+              "hideFromNav": false
+            },
+            "collapsible": {
+              "title": "Collapsible",
+              "slug": "/components/utilities/collapsible",
+              "hideFromNav": false
+            },
+            "frame": {
+              "title": "Frame",
+              "slug": "/components/utilities/frame",
+              "hideFromNav": false
+            },
+            "scrollable": {
+              "title": "Scrollable",
+              "slug": "/components/utilities/scrollable",
+              "hideFromNav": false
+            }
+          }
+        }
+      }
+    },
+    "content": {
+      "title": "Content",
+      "icon": "TextAlignmentLeftMajor",
+      "description": "Thoughtful, consistent interface content is a core element of a well-designed user experience.",
+      "order": 4,
+      "slug": "/content",
+      "hideFromNav": false,
+      "children": {
+        "actionable-language": {
+          "title": "Actionable language",
+          "icon": "CircleRightMajor",
+          "description": "Merchants use Shopify to get things done. Content should be written and structured to help them understand and take the most important actions.",
+          "slug": "/content/actionable-language",
+          "hideFromNav": false
+        },
+        "alternative-text": {
+          "title": "Alternative text",
+          "icon": "ImageAltMajor",
+          "description": "Alternative text (alt text) helps provide an inclusive experience for merchants who use screen readers.",
+          "slug": "/content/alternative-text",
+          "hideFromNav": false
+        },
+        "error-messages": {
+          "title": "Error messages",
+          "icon": "DiamondAlertMajor",
+          "description": "Error messages can be scary. Make errors visible to merchants, easy to understand, and helpful.",
+          "slug": "/content/error-messages",
+          "hideFromNav": false
+        },
+        "grammar-and-mechanics": {
+          "title": "Grammar and mechanics",
+          "icon": "GrammarMajor",
+          "description": "This guide is to help designers, developers, recruiters, UX-ers, product managers, support advisors, or anyone who writes public-facing text for Shopify.",
+          "slug": "/content/grammar-and-mechanics",
+          "hideFromNav": false
+        },
+        "help-content": {
+          "title": "Help content",
+          "icon": "QuestionMarkInverseMajor",
+          "description": "Help content is educational text that describes interactive elements or offers information about concepts in the UI.",
+          "slug": "/content/help-content",
+          "hideFromNav": false
+        },
+        "help-documentation": {
+          "title": "Help documentation",
+          "icon": "QuestionMarkInverseMajor",
+          "description": "After you build an app or other integration, writing help documentation will show merchants how to use it.",
+          "slug": "/content/help-documentation",
+          "hideFromNav": false
+        },
+        "inclusive-language": {
+          "title": "Inclusive language",
+          "icon": "AccessibilityMajor",
+          "description": "Make commerce better for everyone by writing inclusively.",
+          "slug": "/content/inclusive-language",
+          "hideFromNav": false
+        },
+        "merchant-to-customer": {
+          "title": "Merchant-to-customer content",
+          "icon": "EmailNewsletterMajor",
+          "description": "Shopify creates content for different audiences. One of those audiences is merchants’ customers. A customer is a person or organization who interacts with a Shopify merchant or a merchant’s sales channel.",
+          "slug": "/content/merchant-to-customer",
+          "hideFromNav": false
+        },
+        "naming": {
+          "title": "Naming",
+          "icon": "ProductsMajor",
+          "description": "The names we give our products and features teach merchants how to use Shopify and how to find the things they need to run their business.",
+          "slug": "/content/naming",
+          "hideFromNav": false
+        },
+        "product-content": {
+          "title": "Product content",
+          "icon": "ColumnWithTextMajor",
+          "description": "Thoughtful, consistent interface content is a core element of a well-designed user experience.",
+          "slug": "/content/product-content",
+          "hideFromNav": false
+        },
+        "voice-and-tone": {
+          "title": "Voice and tone",
+          "icon": "ChatMajor",
+          "description": "Learn how to apply Shopify’s voice and choose the right tone, no matter what product, feature, or app you’re building.",
+          "slug": "/content/voice-and-tone",
+          "hideFromNav": false
+        }
+      }
+    },
+    "contributing": {
+      "title": "Contributing",
+      "icon": "MobilePlusMajor",
+      "description": "Polaris is built for merchants, by you.",
+      "order": 10,
+      "slug": "/contributing",
+      "newSection": true,
+      "hideFromNav": false,
+      "children": {
         "components": {
-            "title": "Components",
-            "icon": "AppsMajor",
-            "order": 7,
-            "slug": "/components",
-            "hideFromNav": false,
-            "children": {
-                "actions": {
-                    "title": "Actions",
-                    "order": 1,
-                    "slug": "/components/actions",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "account-connection": {
-                            "title": "Account connection",
-                            "slug": "/components/actions/account-connection",
-                            "hideFromNav": false
-                        },
-                        "button": {
-                            "title": "Button",
-                            "slug": "/components/actions/button",
-                            "hideFromNav": false
-                        },
-                        "button-group": {
-                            "title": "Button group",
-                            "slug": "/components/actions/button-group",
-                            "hideFromNav": false
-                        },
-                        "page-actions": {
-                            "title": "Page actions",
-                            "slug": "/components/actions/page-actions",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "deprecated": {
-                    "title": "Deprecated",
-                    "order": 12,
-                    "slug": "/components/deprecated",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "caption": {
-                            "title": "Caption",
-                            "slug": "/components/deprecated/caption",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "display-text": {
-                            "title": "Display text",
-                            "slug": "/components/deprecated/display-text",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "heading": {
-                            "title": "Heading",
-                            "slug": "/components/deprecated/heading",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "legacy-card": {
-                            "title": "Legacy card",
-                            "slug": "/components/deprecated/legacy-card",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "legacy-filters": {
-                            "title": "Legacy filters",
-                            "slug": "/components/deprecated/legacy-filters",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "legacy-stack": {
-                            "title": "Legacy stack",
-                            "slug": "/components/deprecated/legacy-stack",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "legacy-tabs": {
-                            "title": "Legacy tabs",
-                            "slug": "/components/deprecated/legacy-tabs",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "setting-toggle": {
-                            "title": "Setting toggle",
-                            "slug": "/components/deprecated/setting-toggle",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "sheet": {
-                            "title": "Sheet",
-                            "slug": "/components/deprecated/sheet",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "subheading": {
-                            "title": "Subheading",
-                            "slug": "/components/deprecated/subheading",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "text-container": {
-                            "title": "Text container",
-                            "slug": "/components/deprecated/text-container",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "text-style": {
-                            "title": "Text style",
-                            "slug": "/components/deprecated/text-style",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        },
-                        "visually-hidden": {
-                            "title": "Visually hidden",
-                            "slug": "/components/deprecated/visually-hidden",
-                            "status": "Deprecated",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "feedback-indicators": {
-                    "title": "Feedback indicators",
-                    "order": 5,
-                    "slug": "/components/feedback-indicators",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "badge": {
-                            "title": "Badge",
-                            "slug": "/components/feedback-indicators/badge",
-                            "hideFromNav": false
-                        },
-                        "banner": {
-                            "title": "Banner",
-                            "slug": "/components/feedback-indicators/banner",
-                            "hideFromNav": false
-                        },
-                        "exception-list": {
-                            "title": "Exception list",
-                            "slug": "/components/feedback-indicators/exception-list",
-                            "hideFromNav": false
-                        },
-                        "loading": {
-                            "title": "Loading",
-                            "slug": "/components/feedback-indicators/loading",
-                            "hideFromNav": false
-                        },
-                        "progress-bar": {
-                            "title": "Progress bar",
-                            "slug": "/components/feedback-indicators/progress-bar",
-                            "hideFromNav": false
-                        },
-                        "skeleton-body-text": {
-                            "title": "Skeleton body text",
-                            "slug": "/components/feedback-indicators/skeleton-body-text",
-                            "hideFromNav": false
-                        },
-                        "skeleton-display-text": {
-                            "title": "Skeleton display text",
-                            "slug": "/components/feedback-indicators/skeleton-display-text",
-                            "hideFromNav": false
-                        },
-                        "skeleton-page": {
-                            "title": "Skeleton page",
-                            "slug": "/components/feedback-indicators/skeleton-page",
-                            "hideFromNav": false
-                        },
-                        "skeleton-tabs": {
-                            "title": "Skeleton tabs",
-                            "slug": "/components/feedback-indicators/skeleton-tabs",
-                            "hideFromNav": false
-                        },
-                        "skeleton-thumbnail": {
-                            "title": "Skeleton thumbnail",
-                            "slug": "/components/feedback-indicators/skeleton-thumbnail",
-                            "hideFromNav": false
-                        },
-                        "spinner": {
-                            "title": "Spinner",
-                            "slug": "/components/feedback-indicators/spinner",
-                            "hideFromNav": false
-                        },
-                        "toast": {
-                            "title": "Toast",
-                            "slug": "/components/feedback-indicators/toast",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "images-and-icons": {
-                    "title": "Images and icons",
-                    "order": 4,
-                    "slug": "/components/images-and-icons",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "avatar": {
-                            "title": "Avatar",
-                            "slug": "/components/images-and-icons/avatar",
-                            "hideFromNav": false
-                        },
-                        "icon": {
-                            "title": "Icon",
-                            "slug": "/components/images-and-icons/icon",
-                            "hideFromNav": false
-                        },
-                        "keyboard-key": {
-                            "title": "Keyboard key",
-                            "slug": "/components/images-and-icons/keyboard-key",
-                            "hideFromNav": false
-                        },
-                        "thumbnail": {
-                            "title": "Thumbnail",
-                            "slug": "/components/images-and-icons/thumbnail",
-                            "hideFromNav": false
-                        },
-                        "video-thumbnail": {
-                            "title": "Video thumbnail",
-                            "slug": "/components/images-and-icons/video-thumbnail",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "layout-and-structure": {
-                    "title": "Layout and structure",
-                    "order": 2,
-                    "slug": "/components/layout-and-structure",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "bleed": {
-                            "title": "Bleed",
-                            "slug": "/components/layout-and-structure/bleed",
-                            "hideFromNav": false
-                        },
-                        "block-stack": {
-                            "title": "Block stack",
-                            "slug": "/components/layout-and-structure/block-stack",
-                            "hideFromNav": false
-                        },
-                        "box": {
-                            "title": "Box",
-                            "slug": "/components/layout-and-structure/box",
-                            "hideFromNav": false
-                        },
-                        "callout-card": {
-                            "title": "Callout card",
-                            "slug": "/components/layout-and-structure/callout-card",
-                            "hideFromNav": false
-                        },
-                        "card": {
-                            "title": "Card",
-                            "slug": "/components/layout-and-structure/card",
-                            "hideFromNav": false
-                        },
-                        "divider": {
-                            "title": "Divider",
-                            "slug": "/components/layout-and-structure/divider",
-                            "hideFromNav": false
-                        },
-                        "empty-state": {
-                            "title": "Empty state",
-                            "slug": "/components/layout-and-structure/empty-state",
-                            "hideFromNav": false
-                        },
-                        "form-layout": {
-                            "title": "Form layout",
-                            "slug": "/components/layout-and-structure/form-layout",
-                            "hideFromNav": false
-                        },
-                        "grid": {
-                            "title": "Grid",
-                            "slug": "/components/layout-and-structure/grid",
-                            "hideFromNav": false
-                        },
-                        "inline-grid": {
-                            "title": "Inline grid",
-                            "slug": "/components/layout-and-structure/inline-grid",
-                            "hideFromNav": false
-                        },
-                        "inline-stack": {
-                            "title": "Inline stack",
-                            "slug": "/components/layout-and-structure/inline-stack",
-                            "hideFromNav": false
-                        },
-                        "layout": {
-                            "title": "Layout",
-                            "slug": "/components/layout-and-structure/layout",
-                            "hideFromNav": false
-                        },
-                        "media-card": {
-                            "title": "Media card",
-                            "slug": "/components/layout-and-structure/media-card",
-                            "hideFromNav": false
-                        },
-                        "page": {
-                            "title": "Page",
-                            "slug": "/components/layout-and-structure/page",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "lists": {
-                    "title": "Lists",
-                    "order": 8,
-                    "slug": "/components/lists",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "action-list": {
-                            "title": "Action list",
-                            "slug": "/components/lists/action-list",
-                            "hideFromNav": false
-                        },
-                        "description-list": {
-                            "title": "Description list",
-                            "slug": "/components/lists/description-list",
-                            "hideFromNav": false
-                        },
-                        "list": {
-                            "title": "List",
-                            "slug": "/components/lists/list",
-                            "hideFromNav": false
-                        },
-                        "listbox": {
-                            "title": "Listbox",
-                            "slug": "/components/lists/listbox",
-                            "hideFromNav": false
-                        },
-                        "option-list": {
-                            "title": "Option list",
-                            "slug": "/components/lists/option-list",
-                            "hideFromNav": false
-                        },
-                        "resource-item": {
-                            "title": "Resource item",
-                            "slug": "/components/lists/resource-item",
-                            "hideFromNav": false
-                        },
-                        "resource-list": {
-                            "title": "Resource list",
-                            "slug": "/components/lists/resource-list",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "navigation": {
-                    "title": "Navigation",
-                    "order": 9,
-                    "slug": "/components/navigation",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "footer-help": {
-                            "title": "Footer help",
-                            "slug": "/components/navigation/footer-help",
-                            "hideFromNav": false
-                        },
-                        "fullscreen-bar": {
-                            "title": "Fullscreen bar",
-                            "slug": "/components/navigation/fullscreen-bar",
-                            "hideFromNav": false
-                        },
-                        "link": {
-                            "title": "Link",
-                            "slug": "/components/navigation/link",
-                            "hideFromNav": false
-                        },
-                        "navigation": {
-                            "title": "Navigation",
-                            "slug": "/components/navigation/navigation",
-                            "hideFromNav": false
-                        },
-                        "pagination": {
-                            "title": "Pagination",
-                            "slug": "/components/navigation/pagination",
-                            "hideFromNav": false
-                        },
-                        "tabs": {
-                            "title": "Tabs",
-                            "slug": "/components/navigation/tabs",
-                            "hideFromNav": false
-                        },
-                        "top-bar": {
-                            "title": "Top bar",
-                            "slug": "/components/navigation/top-bar",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "overlays": {
-                    "title": "Overlays",
-                    "order": 10,
-                    "slug": "/components/overlays",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "modal": {
-                            "title": "Modal",
-                            "slug": "/components/overlays/modal",
-                            "hideFromNav": false
-                        },
-                        "popover": {
-                            "title": "Popover",
-                            "slug": "/components/overlays/popover",
-                            "hideFromNav": false
-                        },
-                        "tooltip": {
-                            "title": "Tooltip",
-                            "slug": "/components/overlays/tooltip",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "selection-and-input": {
-                    "title": "Selection and input",
-                    "order": 3,
-                    "slug": "/components/selection-and-input",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "autocomplete": {
-                            "title": "Autocomplete",
-                            "slug": "/components/selection-and-input/autocomplete",
-                            "hideFromNav": false
-                        },
-                        "checkbox": {
-                            "title": "Checkbox",
-                            "slug": "/components/selection-and-input/checkbox",
-                            "hideFromNav": false
-                        },
-                        "choice-list": {
-                            "title": "Choice list",
-                            "slug": "/components/selection-and-input/choice-list",
-                            "hideFromNav": false
-                        },
-                        "color-picker": {
-                            "title": "Color picker",
-                            "slug": "/components/selection-and-input/color-picker",
-                            "hideFromNav": false
-                        },
-                        "combobox": {
-                            "title": "Combobox",
-                            "slug": "/components/selection-and-input/combobox",
-                            "hideFromNav": false
-                        },
-                        "contextual-save-bar": {
-                            "title": "Contextual save bar",
-                            "slug": "/components/selection-and-input/contextual-save-bar",
-                            "hideFromNav": false
-                        },
-                        "date-picker": {
-                            "title": "Date picker",
-                            "slug": "/components/selection-and-input/date-picker",
-                            "hideFromNav": false
-                        },
-                        "drop-zone": {
-                            "title": "Drop zone",
-                            "slug": "/components/selection-and-input/drop-zone",
-                            "hideFromNav": false
-                        },
-                        "filters": {
-                            "title": "Filters",
-                            "slug": "/components/selection-and-input/filters",
-                            "hideFromNav": false
-                        },
-                        "form": {
-                            "title": "Form",
-                            "slug": "/components/selection-and-input/form",
-                            "hideFromNav": false
-                        },
-                        "index-filters": {
-                            "title": "Index filters",
-                            "slug": "/components/selection-and-input/index-filters",
-                            "hideFromNav": false
-                        },
-                        "inline-error": {
-                            "title": "Inline error",
-                            "slug": "/components/selection-and-input/inline-error",
-                            "hideFromNav": false
-                        },
-                        "radio-button": {
-                            "title": "Radio button",
-                            "slug": "/components/selection-and-input/radio-button",
-                            "hideFromNav": false
-                        },
-                        "range-slider": {
-                            "title": "Range slider",
-                            "slug": "/components/selection-and-input/range-slider",
-                            "hideFromNav": false
-                        },
-                        "select": {
-                            "title": "Select",
-                            "slug": "/components/selection-and-input/select",
-                            "hideFromNav": false
-                        },
-                        "tag": {
-                            "title": "Tag",
-                            "slug": "/components/selection-and-input/tag",
-                            "hideFromNav": false
-                        },
-                        "text-field": {
-                            "title": "Text field",
-                            "slug": "/components/selection-and-input/text-field",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "tables": {
-                    "title": "Tables",
-                    "order": 7,
-                    "slug": "/components/tables",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "data-table": {
-                            "title": "Data table",
-                            "slug": "/components/tables/data-table",
-                            "hideFromNav": false
-                        },
-                        "index-table": {
-                            "title": "Index table",
-                            "slug": "/components/tables/index-table",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "typography": {
-                    "title": "Typography",
-                    "order": 6,
-                    "slug": "/components/typography",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "text": {
-                            "title": "Text",
-                            "slug": "/components/typography/text",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "utilities": {
-                    "title": "Utilities",
-                    "order": 11,
-                    "slug": "/components/utilities",
-                    "expanded": true,
-                    "hideFromNav": false,
-                    "children": {
-                        "app-provider": {
-                            "title": "App provider",
-                            "slug": "/components/utilities/app-provider",
-                            "hideFromNav": false
-                        },
-                        "collapsible": {
-                            "title": "Collapsible",
-                            "slug": "/components/utilities/collapsible",
-                            "hideFromNav": false
-                        },
-                        "frame": {
-                            "title": "Frame",
-                            "slug": "/components/utilities/frame",
-                            "hideFromNav": false
-                        },
-                        "scrollable": {
-                            "title": "Scrollable",
-                            "slug": "/components/utilities/scrollable",
-                            "hideFromNav": false
-                        }
-                    }
-                }
-            }
+          "title": "Components",
+          "description": "Anyone is welcome to contribute to Polaris React components. There are several types of component contributions, but they typically fall under three categories; bug fix, enhancement, or new pattern.",
+          "order": 1,
+          "slug": "/contributing/components",
+          "hideFromNav": false
         },
-        "content": {
-            "title": "Content",
-            "icon": "TextAlignmentLeftMajor",
-            "description": "Thoughtful, consistent interface content is a core element of a well-designed user experience.",
-            "order": 4,
-            "slug": "/content",
-            "hideFromNav": false,
-            "children": {
-                "actionable-language": {
-                    "title": "Actionable language",
-                    "icon": "CircleRightMajor",
-                    "description": "Merchants use Shopify to get things done. Content should be written and structured to help them understand and take the most important actions.",
-                    "slug": "/content/actionable-language",
-                    "hideFromNav": false
-                },
-                "alternative-text": {
-                    "title": "Alternative text",
-                    "icon": "ImageAltMajor",
-                    "description": "Alternative text (alt text) helps provide an inclusive experience for merchants who use screen readers.",
-                    "slug": "/content/alternative-text",
-                    "hideFromNav": false
-                },
-                "error-messages": {
-                    "title": "Error messages",
-                    "icon": "DiamondAlertMajor",
-                    "description": "Error messages can be scary. Make errors visible to merchants, easy to understand, and helpful.",
-                    "slug": "/content/error-messages",
-                    "hideFromNav": false
-                },
-                "grammar-and-mechanics": {
-                    "title": "Grammar and mechanics",
-                    "icon": "GrammarMajor",
-                    "description": "This guide is to help designers, developers, recruiters, UX-ers, product managers, support advisors, or anyone who writes public-facing text for Shopify.",
-                    "slug": "/content/grammar-and-mechanics",
-                    "hideFromNav": false
-                },
-                "help-content": {
-                    "title": "Help content",
-                    "icon": "QuestionMarkInverseMajor",
-                    "description": "Help content is educational text that describes interactive elements or offers information about concepts in the UI.",
-                    "slug": "/content/help-content",
-                    "hideFromNav": false
-                },
-                "help-documentation": {
-                    "title": "Help documentation",
-                    "icon": "QuestionMarkInverseMajor",
-                    "description": "After you build an app or other integration, writing help documentation will show merchants how to use it.",
-                    "slug": "/content/help-documentation",
-                    "hideFromNav": false
-                },
-                "inclusive-language": {
-                    "title": "Inclusive language",
-                    "icon": "AccessibilityMajor",
-                    "description": "Make commerce better for everyone by writing inclusively.",
-                    "slug": "/content/inclusive-language",
-                    "hideFromNav": false
-                },
-                "merchant-to-customer": {
-                    "title": "Merchant-to-customer content",
-                    "icon": "EmailNewsletterMajor",
-                    "description": "Shopify creates content for different audiences. One of those audiences is merchants’ customers. A customer is a person or organization who interacts with a Shopify merchant or a merchant’s sales channel.",
-                    "slug": "/content/merchant-to-customer",
-                    "hideFromNav": false
-                },
-                "naming": {
-                    "title": "Naming",
-                    "icon": "ProductsMajor",
-                    "description": "The names we give our products and features teach merchants how to use Shopify and how to find the things they need to run their business.",
-                    "slug": "/content/naming",
-                    "hideFromNav": false
-                },
-                "product-content": {
-                    "title": "Product content",
-                    "icon": "ColumnWithTextMajor",
-                    "description": "Thoughtful, consistent interface content is a core element of a well-designed user experience.",
-                    "slug": "/content/product-content",
-                    "hideFromNav": false
-                },
-                "voice-and-tone": {
-                    "title": "Voice and tone",
-                    "icon": "ChatMajor",
-                    "description": "Learn how to apply Shopify’s voice and choose the right tone, no matter what product, feature, or app you’re building.",
-                    "slug": "/content/voice-and-tone",
-                    "hideFromNav": false
-                }
-            }
+        "documentation": {
+          "title": "Documentation",
+          "order": 4,
+          "slug": "/contributing/documentation",
+          "hideFromNav": false
         },
-        "contributing": {
-            "title": "Contributing",
-            "icon": "MobilePlusMajor",
-            "description": "Polaris is built for merchants, by you.",
-            "order": 10,
-            "slug": "/contributing",
-            "newSection": true,
-            "hideFromNav": false,
-            "children": {
-                "components": {
-                    "title": "Components",
-                    "description": "Anyone is welcome to contribute to Polaris React components. There are several types of component contributions, but they typically fall under three categories; bug fix, enhancement, or new pattern.",
-                    "order": 1,
-                    "slug": "/contributing/components",
-                    "hideFromNav": false
-                },
-                "documentation": {
-                    "title": "Documentation",
-                    "order": 4,
-                    "slug": "/contributing/documentation",
-                    "hideFromNav": false
-                },
-                "figma-ui-kit": {
-                    "title": "Figma UI Kit",
-                    "order": 2,
-                    "slug": "/contributing/figma-ui-kit",
-                    "hideFromNav": false
-                },
-                "icons": {
-                    "title": "Icons",
-                    "order": 3,
-                    "slug": "/contributing/icons",
-                    "hideFromNav": false
-                }
-            }
-        },
-        "design": {
-            "title": "Design",
-            "icon": "PaintBrushMajor",
-            "description": "Design principles serve as guiding notions that shape the design of the Shopify admin, with Polaris providing support in implementing these principles effectively.",
-            "order": 3,
-            "slug": "/design",
-            "status": "New",
-            "hideFromNav": false,
-            "children": {
-                "colors": {
-                    "title": "Color",
-                    "icon": "ColorsMajor",
-                    "description": "Color highlights important areas, communicates status, urgency, and directs attention.",
-                    "order": 2,
-                    "slug": "/design/colors",
-                    "hideChildren": true,
-                    "status": "New",
-                    "hideFromNav": false,
-                    "children": {
-                        "palettes-and-roles": {
-                            "title": "Palettes and roles",
-                            "icon": "ColorsMajor",
-                            "description": "Color highlights important areas, communicates status, urgency, and directs attention.",
-                            "order": 1,
-                            "slug": "/design/colors/palettes-and-roles",
-                            "hideFromNav": false
-                        },
-                        "using-color": {
-                            "title": "Using color",
-                            "icon": "PaintBrushMajor",
-                            "description": "Color highlights important areas, communicates status, urgency, and directs attention.",
-                            "order": 2,
-                            "slug": "/design/colors/using-color",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "data-visualizations": {
-                    "title": "Data visualizations",
-                    "icon": "AnalyticsMajor",
-                    "description": "Visualizations surface patterns in data, and provide immediate answers to a single, specific question.",
-                    "order": 8,
-                    "slug": "/design/data-visualizations",
-                    "hideFromNav": false
-                },
-                "depth": {
-                    "title": "Depth",
-                    "icon": "TypeMajor",
-                    "description": "Depth introduces a sense of realism, helps establish visual hierarchy, and creates focus.",
-                    "order": 3,
-                    "slug": "/design/depth",
-                    "hideChildren": true,
-                    "status": "New",
-                    "hideFromNav": false,
-                    "children": {
-                        "creating-depth": {
-                            "title": "Creating Depth",
-                            "icon": "VariantMajor",
-                            "slug": "/design/depth/creating-depth",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "icons": {
-                    "title": "Icons",
-                    "description": "Icons enhance an experience by providing intuitive and efficient navigation, conveying information concisely, and making it more visually appealing.",
-                    "order": 4,
-                    "slug": "/design/icons",
-                    "hideChildren": true,
-                    "status": "New",
-                    "hideFromNav": false,
-                    "children": {
-                        "creating-icons": {
-                            "title": "Creating Icons",
-                            "icon": "EditMinor",
-                            "description": "Icons enhance an experience by providing intuitive and efficient navigation, conveying information concisely, and making it more visually appealing.",
-                            "slug": "/design/icons/creating-icons",
-                            "hideFromNav": false
-                        },
-                        "using-icons": {
-                            "title": "Using Icons",
-                            "icon": "PaintBrushMajor",
-                            "description": "Icons enhance an experience by providing intuitive and efficient navigation, conveying information concisely, and making it more visually appealing.",
-                            "slug": "/design/icons/using-icons",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "illustrations": {
-                    "title": "Illustrations",
-                    "icon": "IllustrationMajor",
-                    "description": "The Shopify admin uses a precise illustration style to help merchants quickly and clearly understand how things work across every experience.",
-                    "order": 9,
-                    "slug": "/design/illustrations",
-                    "hideFromNav": false
-                },
-                "interaction-states": {
-                    "title": "Interaction states",
-                    "icon": "BuyButtonMajor",
-                    "description": "Interaction states communicate the status of an element in the interface, establish confidence once an action is taken, and suggest the ability (or inability) to interact with the element.",
-                    "order": 10,
-                    "slug": "/design/interaction-states",
-                    "hideFromNav": false
-                },
-                "layout": {
-                    "title": "Layout",
-                    "icon": "TemplateMajor",
-                    "description": "Layout determines the placement, positioning, and organization of various components within the UI, such as buttons, menus, content sections, and other visual elements.",
-                    "order": 5,
-                    "slug": "/design/layout",
-                    "hideChildren": true,
-                    "status": "New",
-                    "hideFromNav": false,
-                    "children": {
-                        "density": {
-                            "title": "Density",
-                            "icon": "Columns3Minor",
-                            "description": "The admin is high density by default, but the level of density can range depending on the merchant's task.",
-                            "order": 2,
-                            "slug": "/design/layout/density",
-                            "hideFromNav": false
-                        },
-                        "layout-tokens": {
-                            "title": "Tokens",
-                            "icon": "Hexagon",
-                            "description": "Apply consistent and harmonious space within and between ui elements.",
-                            "order": 3,
-                            "slug": "/design/layout/layout-tokens",
-                            "hideFromNav": false
-                        },
-                        "spacial-organization": {
-                            "title": "Spacial organization",
-                            "icon": "BuyButtonButtonLayoutMajor",
-                            "description": "Components, elements and surfaces are organized to create compositions that make the best use of space.",
-                            "order": 1,
-                            "slug": "/design/layout/spacial-organization",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "motion": {
-                    "title": "Motion",
-                    "description": "Motion brings dynamism to an interface, offers visual feedback, and aids merchants understanding the outcomes of their actions.",
-                    "order": 6,
-                    "slug": "/design/motion",
-                    "hideChildren": true,
-                    "status": "New",
-                    "hideFromNav": false,
-                    "children": {
-                        "creating-motion": {
-                            "title": "Creating Motion",
-                            "icon": "TransactionMajor",
-                            "description": "Motion brings dynamism to an interface, offers visual feedback and aids merchants understanding the outcomes of their actions.",
-                            "slug": "/design/motion/creating-motion",
-                            "hideFromNav": false
-                        },
-                        "using-motion": {
-                            "title": "Using Motion",
-                            "icon": "PlayMinor",
-                            "description": "Motion brings dynamism to an interface, offers visual feedback and aids merchants understanding the outcomes of their actions.",
-                            "slug": "/design/motion/using-motion",
-                            "hideFromNav": false
-                        }
-                    }
-                },
-                "pro-design-language": {
-                    "title": "Pro design language",
-                    "icon": "PaintBrushMajor",
-                    "description": "Efficiency, intuition, and style combined to empower merchants with data-rich views, action-driven interfaces, and dynamic interactions.",
-                    "order": 1,
-                    "slug": "/design/pro-design-language",
-                    "status": "New",
-                    "hideFromNav": false
-                },
-                "sounds": {
-                    "title": "Sounds",
-                    "icon": "SoundMajor",
-                    "description": "We use sound to communicate information and to enhance how merchants experience the Shopify admin. Sound patterns make interactions easier and more predictable.",
-                    "order": 11,
-                    "slug": "/design/sounds",
-                    "hideFromNav": false
-                },
-                "typography": {
-                    "title": "Typography",
-                    "icon": "TypeMajor",
-                    "description": "Typography is the art of arranging type in ways that provides innate hierarchy to UI.",
-                    "order": 7,
-                    "slug": "/design/typography",
-                    "hideChildren": true,
-                    "status": "New",
-                    "hideFromNav": false,
-                    "children": {
-                        "font-and-typescale": {
-                            "title": "Font and Typescale",
-                            "icon": "TextAlignmentLeftMajor",
-                            "description": "Typography is the art of arranging type in ways that provides innate hierarchy to UI.",
-                            "order": 1,
-                            "slug": "/design/typography/font-and-typescale",
-                            "hideChildren": true,
-                            "hideFromNav": false
-                        },
-                        "typography-tokens": {
-                            "title": "Tokens",
-                            "icon": "Hexagon",
-                            "description": "Typography is the art of arranging type in ways that provides innate hierarchy to UI.",
-                            "order": 3,
-                            "slug": "/design/typography/typography-tokens",
-                            "hideChildren": true,
-                            "hideFromNav": false
-                        },
-                        "using-type": {
-                            "title": "Using type",
-                            "icon": "TypeMajor",
-                            "description": "Typography is the art of arranging type in ways that provides innate hierarchy to UI.",
-                            "order": 2,
-                            "slug": "/design/typography/using-type",
-                            "hideChildren": true,
-                            "hideFromNav": false
-                        }
-                    }
-                }
-            }
-        },
-        "foundations": {
-            "title": "Foundations",
-            "icon": "VocabularyMajor",
-            "description": "Polaris is the design system for the Shopify admin. It’s the shared language that guides how we build high-quality merchant experiences.",
-            "order": 2,
-            "slug": "/foundations",
-            "newSection": true,
-            "hideFromNav": false,
-            "children": {
-                "accessibility": {
-                    "title": "Accessibility",
-                    "icon": "AccessibilityMajor",
-                    "description": "Making commerce better for everyone means caring deeply about making quality products. A quality product should have a fantastic user experience (UX).",
-                    "slug": "/foundations/accessibility",
-                    "hideFromNav": false
-                },
-                "experience-values": {
-                    "title": "Shopify experience values",
-                    "icon": "HeartMajor",
-                    "description": "At Shopify, we empower commerce at a global scale. We build products, tools, and services for people to start, manage, and scale their businesses. We manage enormous complexity for commerce giants, and give new entrepreneurs the best chance to succeed.",
-                    "slug": "/foundations/experience-values",
-                    "hideFromNav": false
-                },
-                "formatting-localized-currency": {
-                    "title": "Formatting localized currency",
-                    "icon": "CashYenMajor",
-                    "description": "Currencies are formatted differently in different countries and languages.",
-                    "slug": "/foundations/formatting-localized-currency",
-                    "hideFromNav": false
-                },
-                "information-architecture": {
-                    "title": "Information architecture",
-                    "icon": "CategoriesMajor",
-                    "description": "Everything we create at Shopify has an underlying foundation of information architecture. If you’re a designer, a content strategist, or a UX developer, you’re already doing IA work.",
-                    "slug": "/foundations/information-architecture",
-                    "hideFromNav": false
-                },
-                "internationalization": {
-                    "title": "Internationalization",
-                    "icon": "GlobeMajor",
-                    "description": "Make commerce better for everyone by building interfaces that work everywhere. These guidelines will help you design, write, and build products that can be used in every part of the world.",
-                    "slug": "/foundations/internationalization",
-                    "hideFromNav": false
-                }
-            }
-        },
-        "getting-started": {
-            "title": "Getting started",
-            "icon": "HintMajor",
-            "description": "Polaris is the design system for the Shopify admin. If you’re just starting out with Polaris, here’s a list of recommended resources and guidance to get you started.",
-            "order": 1,
-            "slug": "/getting-started",
-            "hideFromNav": false,
-            "children": {
-                "components-lifecycle": {
-                    "title": "Component lifecycle",
-                    "description": "Polaris components move through a series of stages throughout their lifecycle. Within each stage, a component must meet a set of requirements.",
-                    "order": 1,
-                    "slug": "/getting-started/components-lifecycle",
-                    "hideFromNav": false
-                },
-                "designing-with-a-system": {
-                    "title": "Building with Polaris",
-                    "order": 3,
-                    "slug": "/getting-started/designing-with-a-system",
-                    "hideFromNav": false
-                },
-                "polaris-101": {
-                    "title": "Polaris 101",
-                    "description": "The Polaris design system is used by designers and developers to build world-class Shopify admin experiences.",
-                    "order": 0,
-                    "slug": "/getting-started/polaris-101",
-                    "hideFromNav": false
-                }
-            }
+        "figma-ui-kit": {
+          "title": "Figma UI Kit",
+          "order": 2,
+          "slug": "/contributing/figma-ui-kit",
+          "hideFromNav": false
         },
         "icons": {
-            "title": "Icons",
-            "icon": "IconsMajor",
-            "description": "Use icons to increase visual appeal and improve navigation, comprehension, and engagement.",
-            "order": 9,
-            "slug": "/icons",
-            "hideFromNav": false
-        },
-        "patterns": {
-            "title": "Patterns",
-            "icon": "BehaviorMajor",
-            "description": "Preferred solutions to common merchant goals in the admin.",
-            "order": 6,
-            "slug": "/patterns",
-            "newSection": true,
-            "hideFromNav": false,
-            "children": {
-                "app-settings-layout": {
-                    "title": "App settings layout",
-                    "description": "Scan and find groups of settings in apps",
-                    "slug": "/patterns/app-settings-layout",
-                    "hideFromNav": false
-                },
-                "date-picking": {
-                    "title": "Date picking",
-                    "description": "Select a date or a date range",
-                    "slug": "/patterns/date-picking",
-                    "hideFromNav": false
-                },
-                "new-features": {
-                    "title": "New features",
-                    "description": "Highlight new features for merchants",
-                    "slug": "/patterns/new-features",
-                    "hideFromNav": false
-                },
-                "resource-details-layout": {
-                    "title": "Resource details layout",
-                    "description": "Create, view, and edit resource objects",
-                    "slug": "/patterns/resource-details-layout",
-                    "hideFromNav": false
-                },
-                "resource-index-layout": {
-                    "title": "Resource index layout",
-                    "description": "Organize and take action on resource objects",
-                    "slug": "/patterns/resource-index-layout",
-                    "hideFromNav": false
-                }
-            }
-        },
-        "patterns-legacy": {
-            "children": {
-                "loading": {
-                    "title": "Loading",
-                    "icon": "RefreshMajor",
-                    "description": "Navigating the Shopify admin should be fast, meaningful, and focused. Intentional loading states deliver a continuous flow for merchants.",
-                    "slug": "/patterns-legacy/loading",
-                    "hideFromNav": false
-                },
-                "new-badge": {
-                    "title": "New badge",
-                    "icon": "StarFilledMinor",
-                    "description": "The New badge can be used to inform merchants about the release of a feature that creates new value. It should be used sparingly and for a short time frame.",
-                    "slug": "/patterns-legacy/new-badge",
-                    "hideFromNav": false
-                },
-                "pickers": {
-                    "title": "Pickers",
-                    "icon": "LocationMajor",
-                    "description": "Picker experiences help merchants browse, find, and select from multiple options. Use them for selecting locations, customer segments, and more.",
-                    "slug": "/patterns-legacy/pickers",
-                    "hideFromNav": false
-                },
-                "text-fields": {
-                    "title": "Text fields",
-                    "icon": "FormsMajor",
-                    "description": "Text fields combine the field label (the title) and the input area. Inputs can vary from typed text to URLs to date pickers.",
-                    "slug": "/patterns-legacy/text-fields",
-                    "hideFromNav": false
-                }
-            }
-        },
-        "tokens": {
-            "title": "Tokens",
-            "icon": "EyeDropperMinor",
-            "description": "Tokens are variables that represent design decisions such as color, typography, and spacing, in a consistent and reusable way.",
-            "order": 8,
-            "slug": "/tokens/color",
-            "hideFromNav": false
-        },
-        "tools": {
-            "title": "Tools",
-            "icon": "ToolsMajor",
-            "description": "Extensions, plugins, and other tools to help build with Polaris.",
-            "order": 11,
-            "slug": "/tools",
-            "hideFromNav": false,
-            "children": {
-                "polaris-for-vscode": {
-                    "title": "VS Code",
-                    "icon": "HintMajor",
-                    "description": "Official VS Code extension for building with the Shopify Polaris design system.",
-                    "order": 1,
-                    "slug": "/tools/polaris-for-vscode",
-                    "hideFromNav": false
-                },
-                "polaris-migrator": {
-                    "title": "Migrator",
-                    "icon": "ReplaceMajor",
-                    "description": "Codemod transformations to help upgrade your Polaris codebase.",
-                    "order": 3,
-                    "slug": "/tools/polaris-migrator",
-                    "hideFromNav": false
-                },
-                "sandbox": {
-                    "title": "Sandbox",
-                    "icon": "SandboxMajor",
-                    "description": "Effortless prototyping with Polaris components.",
-                    "order": 5,
-                    "slug": "/sandbox?code=N4Igxg9gJgpiBcIA8AZGBzAhmAngYUwCcoAdAOwAIKBnGSMqInAMQggBcZCBBMdgSwhlqAXmABtYBXqcy7eBRIgAIv2oBbNdSUUAvgF1d5KgAdC-dU1YcuvAULFSZMOQqUBRAB4mIhdhQAlGB8-HV0jMgA%2BYwpUDGx8IigAOgAJGExYQhiqbHthMXEcqgpgYpLpIVl5RRAAFQ5MABsKAGVmmG0QABpyvV7KEsNigXYmmBEldvGumOjBqiQABQgfADcuPrz%2BDbEAM2baCIrcvh3Mdl8xPsWAIQBXdkvKKDUwJohqe8IYChMmzD8KI3EoANX4MAA7m0OtoFickAB6B5PITzE56PpCPAfWhiAAUAEoKCJIqVwsV0Qi7IIyCg1OwQfxOOpRBInFUXDUlABxQifagwmZhbqlSpyLluEAAORg-mmnTCw3hVERVMWiJW6y4VKRaCwuAIxDSGSyuv1CSNKVadHy6tidRgnnYeCqgLIOr6AE0IPdpJhKPdaDRYRQfiF2ILLjQYL8gXtfJZ8hRMAAjX3%2BHC%2BwjSIOXdRcaiATAIscRCxRU5haFAKEJpOZOOZMDR7mAABYpwXUUMQDY5gQF0WpnDSNsBj1NUW%2BCs4PrUdiYPZ7ZLFJGO52uuTuz2DPXxQ1JZI2s5omJxA2JY3H5OjcaTeqNFoKwW3H6YADWUAgkLISntSCCahszAGB6XnPofiA74QOlTAC0cGggXQe4AUIKVu3GJRRX%2Bb5mnQ2EwmOE5mRgVlChBMoVRODDOilAB5MtCC6AYMQqODfVcWoAFVWmUAASAAGZIBIErCQSob4milABiMSqKoXQWNYyjWJKGjqClIJ2G%2BYQ5NU3J1A47kQAAWh4-iACYAFYhJEvT9MkmT7IxRS%2BmVDEfgYLgAEkWQJEj1GJUlShBeh5zFdTRXY%2B45FFSS9BJCgAoAbhBH5tMISh8XE2JAOA0CGWSXzSJyqh%2BCgMR1OSS4UAgMAOlqyEuAIWgiSI-SKEksRJPa-TsBA6hqH4VN%2BCaZkcBQNMYCaMQAANwShIVOgoBMcz44B1N0WbetU7ExrAd8CSCskwogcZkg%2BdBsvAfb3xgGsAqwpKWUJHaTntVTzwSVoFwOj79K%2B3Afuwd8ipZFbRqaSINthXQ9wvYGDrB0j-s%2Bi0gd%2B0HivUaHorkOHEXRnBEaxllUYRQn92JzHyY1PLoIK%2BdkZxkFCVSqiKXhNUz0pi8rSPW1aXNKn%2BevWkKFvCYlGUDIzjWC57rDYJfEjHQvlTKB7nu-8wPYf7UEK7HIiWTAs0eag9UNsm%2BgNpmjYaBcn1DW4RzwMcyAnS27et%2BEvb1nmidFwXT13QPDzFutJfvaUbD-Vd1xdN0gR3DE6jbX51KViNBSIX5MHl0a03GWsyCaEd%2BD2CgzZzedfDjQVI-Tto21WCvZyo-4A1rHM234dB08IFdfcRBPNwXZPCF1XnLXD4PgTIeGZ%2BIeYehAdh04LagEHEEAPnq8Z4BcEB9G6EBIXK9et-gcRDCAA",
-                    "status": "Alpha",
-                    "hideFromNav": false
-                },
-                "stylelint-polaris": {
-                    "title": "Stylelint",
-                    "icon": "WandMajor",
-                    "description": "A configuration of Stylelint rules that promote adoption of the Polaris design system in consuming apps.",
-                    "order": 4,
-                    "slug": "/tools/stylelint-polaris",
-                    "hideFromNav": false,
-                    "children": {
-                        "_postamble": {
-                            "slug": "/tools/stylelint-polaris/_postamble",
-                            "hideFromNav": false
-                        },
-                        "_preamble": {
-                            "slug": "/tools/stylelint-polaris/_preamble",
-                            "hideFromNav": false
-                        },
-                        "rules": {
-                            "title": "Rules",
-                            "description": "There are over 40 rules configured in Stylelint Polaris to help you avoid errors and follow stylistic and non-stylistic conventions while building for the Shopify admin. These rules are grouped into categories that help us measure the Polaris design system's coverage in the Shopify admin code base.",
-                            "slug": "/tools/stylelint-polaris/rules",
-                            "hideChildren": true,
-                            "hideFromNav": false,
-                            "children": {
-                                "border-at-rule-disallowed-list": {
-                                    "title": "border/at-rule-disallowed-list",
-                                    "description": "Disallows use of legacy Sass border mixins.",
-                                    "slug": "/tools/stylelint-polaris/rules/border-at-rule-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "border-custom-property-disallowed-list": {
-                                    "title": "border/custom-property-disallowed-list",
-                                    "description": "Disallows use of legacy border custom properties.",
-                                    "slug": "/tools/stylelint-polaris/rules/border-custom-property-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "border-declaration-property-unit-disallowed-list": {
-                                    "title": "border/declaration-property-unit-disallowed-list",
-                                    "description": "Disallows hard-coded `px`, `em`, and `rem` units in border property values.",
-                                    "slug": "/tools/stylelint-polaris/rules/border-declaration-property-unit-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "border-function-disallowed-list": {
-                                    "title": "border/function-disallowed-list",
-                                    "description": "Disallows use of legacy Sass border functions.",
-                                    "slug": "/tools/stylelint-polaris/rules/border-function-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "color-at-rule-disallowed-list": {
-                                    "title": "color/at-rule-disallowed-list",
-                                    "description": "Disallows use of legacy color mixins.",
-                                    "slug": "/tools/stylelint-polaris/rules/color-at-rule-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "color-color-named": {
-                                    "title": "color/color-named",
-                                    "description": "Disallows named colors.",
-                                    "slug": "/tools/stylelint-polaris/rules/color-color-named",
-                                    "hideFromNav": false
-                                },
-                                "color-color-no-hex": {
-                                    "title": "color/color-no-hex",
-                                    "description": "Disallows hex colors.",
-                                    "slug": "/tools/stylelint-polaris/rules/color-color-no-hex",
-                                    "hideFromNav": false
-                                },
-                                "color-custom-property-disallowed-list": {
-                                    "title": "color/custom-property-disallowed-list",
-                                    "description": "Disallows use of legacy color custom properties.",
-                                    "slug": "/tools/stylelint-polaris/rules/color-custom-property-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "color-function-disallowed-list": {
-                                    "title": "color/function-disallowed-list",
-                                    "description": "Disallows allows use of built in and legacy color functions.",
-                                    "slug": "/tools/stylelint-polaris/rules/color-function-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "color-global-disallowed-list": {
-                                    "title": "color/global-disallowed-list",
-                                    "description": "Disallows use of legacy color Sass APIs.",
-                                    "slug": "/tools/stylelint-polaris/rules/color-global-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "conventions-custom-property-allowed-list": {
-                                    "title": "conventions/custom-property-allowed-list",
-                                    "description": "Allows definition of custom properties not using Polaris prefixes, flags declaration property values that are not valid Polaris tokens, flags declaration property values using private tokens.",
-                                    "slug": "/tools/stylelint-polaris/rules/conventions-custom-property-allowed-list",
-                                    "hideFromNav": false
-                                },
-                                "conventions-selector-disallowed-list": {
-                                    "title": "conventions/selector-disallowed-list",
-                                    "description": "Disallows overrides of Polaris component styles.",
-                                    "slug": "/tools/stylelint-polaris/rules/conventions-selector-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "layout-at-rule-disallowed-list": {
-                                    "title": "layout/at-rule-disallowed-list",
-                                    "description": "Disallows use of legacy Sass mixins.",
-                                    "slug": "/tools/stylelint-polaris/rules/layout-at-rule-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "layout-custom-property-disallowed-list": {
-                                    "title": "layout/custom-property-disallowed-list",
-                                    "description": "Disallows use of legacy layout custom properties.",
-                                    "slug": "/tools/stylelint-polaris/rules/layout-custom-property-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "layout-declaration-property-value-disallowed-list": {
-                                    "title": "layout/declaration-property-value-disallowed-list",
-                                    "description": "Disallows declaration of positioning and dimension property values with Polaris tokens.",
-                                    "slug": "/tools/stylelint-polaris/rules/layout-declaration-property-value-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "layout-function-disallowed-list": {
-                                    "title": "layout/function-disallowed-list",
-                                    "description": "Disallows use of internal Sass layout functions.",
-                                    "slug": "/tools/stylelint-polaris/rules/layout-function-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "layout-global-disallowed-list": {
-                                    "title": "layout/global-disallowed-list",
-                                    "description": "Disallows use of legacy layout Sass APIs.",
-                                    "slug": "/tools/stylelint-polaris/rules/layout-global-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "layout-property-disallowed-list": {
-                                    "title": "layout/property-disallowed-list",
-                                    "description": "Disallows declarations of layout properties.",
-                                    "slug": "/tools/stylelint-polaris/rules/layout-property-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "legacy-at-rule-disallowed-list": {
-                                    "title": "legacy/at-rule-disallowed-list",
-                                    "description": "Disallows use of legacy Sass mixins.",
-                                    "slug": "/tools/stylelint-polaris/rules/legacy-at-rule-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "legacy-function-disallowed-list": {
-                                    "title": "legacy/function-disallowed-list",
-                                    "description": "Disallows use off legacy Sass functions.",
-                                    "slug": "/tools/stylelint-polaris/rules/legacy-function-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "legacy-global-disallowed-list": {
-                                    "title": "legacy/global-disallowed-list",
-                                    "description": "Disallows use of legacy custom properties and Sass mixin map data.",
-                                    "slug": "/tools/stylelint-polaris/rules/legacy-global-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "media-queries-at-rule-disallowed-list": {
-                                    "title": "media-queries/at-rule-disallowed-list",
-                                    "description": "Disallows use of legacy breakpoint Sass mixins.",
-                                    "slug": "/tools/stylelint-polaris/rules/media-queries-at-rule-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "media-queries-function-disallowed-list": {
-                                    "title": "media-queries/function-disallowed-list",
-                                    "description": "Disallows use of legacy breakpoint sass functions.",
-                                    "slug": "/tools/stylelint-polaris/rules/media-queries-function-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "media-queries-media-queries-allowed-list": {
-                                    "title": "media-queries/media-queries-allowed-list",
-                                    "description": "Allows declaration of `print` and `screen` `@media` queries, allows `@media` queries for `forced-colors` and `ms-high-contrast` features, allows `@media` queries using Polaris breakpoints.",
-                                    "slug": "/tools/stylelint-polaris/rules/media-queries-media-queries-allowed-list",
-                                    "hideFromNav": false
-                                },
-                                "motion-at-rule-disallowed-list": {
-                                    "title": "motion/at-rule-disallowed-list",
-                                    "description": "Disallows use of CSS @keyframes.",
-                                    "slug": "/tools/stylelint-polaris/rules/motion-at-rule-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "motion-custom-property-disallowed-list": {
-                                    "title": "motion/custom-property-disallowed-list",
-                                    "description": "Disallows use of legacy motion custom properties.",
-                                    "slug": "/tools/stylelint-polaris/rules/motion-custom-property-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "motion-declaration-property-unit-disallowed-list": {
-                                    "title": "motion/declaration-property-unit-disallowed-list",
-                                    "description": "Disallows use of hard-coded millisecond `ms` and second `s` values on transition and animation properties.",
-                                    "slug": "/tools/stylelint-polaris/rules/motion-declaration-property-unit-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "motion-function-disallowed-list": {
-                                    "title": "motion/function-disallowed-list",
-                                    "description": "Disallows use of legacy Sass motion functions.",
-                                    "slug": "/tools/stylelint-polaris/rules/motion-function-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "motion-global-disallowed-list": {
-                                    "title": "motion/global-disallowed-list",
-                                    "description": "Disallows use of legacy motion Sass APIs.",
-                                    "slug": "/tools/stylelint-polaris/rules/motion-global-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "shadow-custom-property-disallowed-list": {
-                                    "title": "shadow/custom-property-disallowed-list",
-                                    "description": "Disallows use of legacy shadow custom properties.",
-                                    "slug": "/tools/stylelint-polaris/rules/shadow-custom-property-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "shadow-declaration-property-unit-disallowed-list": {
-                                    "title": "shadow/declaration-property-unit-disallowed-list",
-                                    "description": "Disallows box-shadow declarations with hard coded px, rem, or em units.",
-                                    "slug": "/tools/stylelint-polaris/rules/shadow-declaration-property-unit-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "shadow-function-disallowed-list": {
-                                    "title": "shadow/function-disallowed-list",
-                                    "description": "Disallows use of built-in and legacy shadow functions.",
-                                    "slug": "/tools/stylelint-polaris/rules/shadow-function-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "shadow-global-disallowed-list": {
-                                    "title": "shadow/global-disallowed-list",
-                                    "description": "Disallows use of legacy shadow Sass APIs.",
-                                    "slug": "/tools/stylelint-polaris/rules/shadow-global-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "shadow-property-disallowed-list": {
-                                    "title": "shadow/property-disallowed-list",
-                                    "description": "Disallows text shadow property.",
-                                    "slug": "/tools/stylelint-polaris/rules/shadow-property-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "space-custom-property-disallowed-list": {
-                                    "title": "space/custom-property-disallowed-list",
-                                    "description": "Disallows use of legacy space custom properties.",
-                                    "slug": "/tools/stylelint-polaris/rules/space-custom-property-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "space-declaration-property-unit-disallowed-list": {
-                                    "title": "space/declaration-property-unit-disallowed-list",
-                                    "description": "Disallows use of hard-coded px, em, and rem values on gap, margin, and padding properties.",
-                                    "slug": "/tools/stylelint-polaris/rules/space-declaration-property-unit-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "space-function-disallowed-list": {
-                                    "title": "space/function-disallowed-list",
-                                    "description": "Disallows use of legacy Sass space functions.",
-                                    "slug": "/tools/stylelint-polaris/rules/space-function-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "space-global-disallowed-list": {
-                                    "title": "space/global-disallowed-list",
-                                    "description": "Disallows use of legacy spacing Sass APIs.",
-                                    "slug": "/tools/stylelint-polaris/rules/space-global-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "typography-at-rule-disallowed-list": {
-                                    "title": "typography/at-rule-disallowed-list",
-                                    "description": "Disallows use of legacy Sass typography mixins.",
-                                    "slug": "/tools/stylelint-polaris/rules/typography-at-rule-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "typography-declaration-property-unit-disallowed-list": {
-                                    "title": "typography/declaration-property-unit-disallowed-list",
-                                    "description": "Disallows hard-coded `px`, `em`, and `rem` values for font-size and line-height properties.",
-                                    "slug": "/tools/stylelint-polaris/rules/typography-declaration-property-unit-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "typography-declaration-property-value-disallowed-list": {
-                                    "title": "typography/declaration-property-value-disallowed-list",
-                                    "description": "Disallows hard-coded alphanumeric font-weight values.",
-                                    "slug": "/tools/stylelint-polaris/rules/typography-declaration-property-value-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "typography-function-disallowed-list": {
-                                    "title": "typography/function-disallowed-list",
-                                    "description": "Disallows use of legacy Sass typography functions.",
-                                    "slug": "/tools/stylelint-polaris/rules/typography-function-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "typography-global-disallowed-list": {
-                                    "title": "typography/global-disallowed-list",
-                                    "description": "Disallows use of legacy typography Sass APIs.",
-                                    "slug": "/tools/stylelint-polaris/rules/typography-global-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "z-index-custom-property-disallowed-list": {
-                                    "title": "z-index/custom-property-disallowed-list",
-                                    "description": "Disallows use of legacy z-index custom properties.",
-                                    "slug": "/tools/stylelint-polaris/rules/z-index-custom-property-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "z-index-declaration-property-value-allowed-list": {
-                                    "title": "z-index/declaration-property-value-allowed-list",
-                                    "description": "Disallows declaration of `z-index` values that are not Polaris z-index tokens.",
-                                    "slug": "/tools/stylelint-polaris/rules/z-index-declaration-property-value-allowed-list",
-                                    "hideFromNav": false
-                                },
-                                "z-index-function-disallowed-list": {
-                                    "title": "z-index/function-disallowed-list",
-                                    "description": "Disallows use of the legacy z-index Sass function.",
-                                    "slug": "/tools/stylelint-polaris/rules/z-index-function-disallowed-list",
-                                    "hideFromNav": false
-                                },
-                                "z-index-global-disallowed-list": {
-                                    "title": "z-index/global-disallowed-list",
-                                    "description": "Disallows use of legacy z-index Sass APIs.",
-                                    "slug": "/tools/stylelint-polaris/rules/z-index-global-disallowed-list",
-                                    "hideFromNav": false
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "version-guides": {
-            "title": "Version guides",
-            "description": "Guides for upgrading apps to major versions.",
-            "order": 12,
-            "slug": "/version-guides",
-            "hideFromNav": false,
-            "children": {
-                "migrating-from-v11-to-v12": {
-                    "title": "v12",
-                    "icon": "ColorsMajor",
-                    "description": "Polaris v12.0.0 prop replacement, removal of components, renamed components, and token changes.",
-                    "order": 1,
-                    "slug": "/version-guides/migrating-from-v11-to-v12",
-                    "hideFromNav": false
-                }
-            }
-        },
-        "whats-new": {
-            "title": "What’s new",
-            "icon": "EmailNewsletterMajor",
-            "description": "Learn about the latest Polaris updates",
-            "order": 0,
-            "slug": "/whats-new",
-            "hideChildren": true,
-            "hideFromNav": false,
-            "children": {
-                "uplifting-shopify-polaris": {
-                    "title": "Uplifting Shopify Polaris",
-                    "description": "The process of evolving a large scale design system.",
-                    "order": 1,
-                    "slug": "https://ux.shopify.com/uplifting-shopify-polaris-7c54fc6564d9",
-                    "hideFromNav": false
-                },
-                "version-10-typography": {
-                    "title": "Version 10 Typography",
-                    "description": "Learn about what changes are coming to Polaris typography.",
-                    "slug": "/whats-new/version-10-typography",
-                    "hideFromNav": false
-                },
-                "version-11-color": {
-                    "title": "Version 11 Color",
-                    "description": "Learn about what changes were introduced to color in Polaris v11.",
-                    "slug": "/whats-new/version-11-color",
-                    "hideFromNav": false
-                },
-                "version-11-layout": {
-                    "title": "Version 11 Layout",
-                    "description": "Start using the new Polaris layout components.",
-                    "slug": "/whats-new/version-11-layout",
-                    "hideFromNav": false
-                },
-                "version-11-tokens": {
-                    "title": "Version 11 Tokens",
-                    "description": "Crafting a more robust and cohesive token system in Polaris.",
-                    "slug": "/whats-new/version-11-tokens",
-                    "hideFromNav": false
-                },
-                "version-12": {
-                    "title": "Version 12",
-                    "description": "This version introduces Shopify's new admin design language, refined tokens, aligned component APIs, and an updated Figma UI kit.",
-                    "order": 0,
-                    "slug": "/whats-new/version-12",
-                    "hideFromNav": false
-                }
-            }
+          "title": "Icons",
+          "order": 3,
+          "slug": "/contributing/icons",
+          "hideFromNav": false
         }
+      }
+    },
+    "design": {
+      "title": "Design",
+      "icon": "PaintBrushMajor",
+      "description": "Design principles serve as guiding notions that shape the design of the Shopify admin, with Polaris providing support in implementing these principles effectively.",
+      "order": 3,
+      "slug": "/design",
+      "status": "New",
+      "hideFromNav": false,
+      "children": {
+        "colors": {
+          "title": "Color",
+          "icon": "ColorsMajor",
+          "description": "Color highlights important areas, communicates status, urgency, and directs attention.",
+          "order": 2,
+          "slug": "/design/colors",
+          "hideChildren": true,
+          "status": "New",
+          "hideFromNav": false,
+          "children": {
+            "palettes-and-roles": {
+              "title": "Palettes and roles",
+              "icon": "ColorsMajor",
+              "description": "Color highlights important areas, communicates status, urgency, and directs attention.",
+              "order": 1,
+              "slug": "/design/colors/palettes-and-roles",
+              "hideFromNav": false
+            },
+            "using-color": {
+              "title": "Using color",
+              "icon": "PaintBrushMajor",
+              "description": "Color highlights important areas, communicates status, urgency, and directs attention.",
+              "order": 2,
+              "slug": "/design/colors/using-color",
+              "hideFromNav": false
+            }
+          }
+        },
+        "data-visualizations": {
+          "title": "Data visualizations",
+          "icon": "AnalyticsMajor",
+          "description": "Visualizations surface patterns in data, and provide immediate answers to a single, specific question.",
+          "order": 8,
+          "slug": "/design/data-visualizations",
+          "hideFromNav": false
+        },
+        "depth": {
+          "title": "Depth",
+          "icon": "TypeMajor",
+          "description": "Depth introduces a sense of realism, helps establish visual hierarchy, and creates focus.",
+          "order": 3,
+          "slug": "/design/depth",
+          "hideChildren": true,
+          "status": "New",
+          "hideFromNav": false,
+          "children": {
+            "creating-depth": {
+              "title": "Creating Depth",
+              "icon": "VariantMajor",
+              "slug": "/design/depth/creating-depth",
+              "hideFromNav": false
+            }
+          }
+        },
+        "icons": {
+          "title": "Icons",
+          "description": "Icons enhance an experience by providing intuitive and efficient navigation, conveying information concisely, and making it more visually appealing.",
+          "order": 4,
+          "slug": "/design/icons",
+          "hideChildren": true,
+          "status": "New",
+          "hideFromNav": false,
+          "children": {
+            "creating-icons": {
+              "title": "Creating Icons",
+              "icon": "EditMinor",
+              "description": "Icons enhance an experience by providing intuitive and efficient navigation, conveying information concisely, and making it more visually appealing.",
+              "slug": "/design/icons/creating-icons",
+              "hideFromNav": false
+            },
+            "using-icons": {
+              "title": "Using Icons",
+              "icon": "PaintBrushMajor",
+              "description": "Icons enhance an experience by providing intuitive and efficient navigation, conveying information concisely, and making it more visually appealing.",
+              "slug": "/design/icons/using-icons",
+              "hideFromNav": false
+            }
+          }
+        },
+        "illustrations": {
+          "title": "Illustrations",
+          "icon": "IllustrationMajor",
+          "description": "The Shopify admin uses a precise illustration style to help merchants quickly and clearly understand how things work across every experience.",
+          "order": 9,
+          "slug": "/design/illustrations",
+          "hideFromNav": false
+        },
+        "interaction-states": {
+          "title": "Interaction states",
+          "icon": "BuyButtonMajor",
+          "description": "Interaction states communicate the status of an element in the interface, establish confidence once an action is taken, and suggest the ability (or inability) to interact with the element.",
+          "order": 10,
+          "slug": "/design/interaction-states",
+          "hideFromNav": false
+        },
+        "layout": {
+          "title": "Layout",
+          "icon": "TemplateMajor",
+          "description": "Layout determines the placement, positioning, and organization of various components within the UI, such as buttons, menus, content sections, and other visual elements.",
+          "order": 5,
+          "slug": "/design/layout",
+          "hideChildren": true,
+          "status": "New",
+          "hideFromNav": false,
+          "children": {
+            "density": {
+              "title": "Density",
+              "icon": "Columns3Minor",
+              "description": "The admin is high density by default, but the level of density can range depending on the merchant's task.",
+              "order": 2,
+              "slug": "/design/layout/density",
+              "hideFromNav": false
+            },
+            "layout-tokens": {
+              "title": "Tokens",
+              "icon": "Hexagon",
+              "description": "Apply consistent and harmonious space within and between ui elements.",
+              "order": 3,
+              "slug": "/design/layout/layout-tokens",
+              "hideFromNav": false
+            },
+            "spacial-organization": {
+              "title": "Spacial organization",
+              "icon": "BuyButtonButtonLayoutMajor",
+              "description": "Components, elements and surfaces are organized to create compositions that make the best use of space.",
+              "order": 1,
+              "slug": "/design/layout/spacial-organization",
+              "hideFromNav": false
+            }
+          }
+        },
+        "motion": {
+          "title": "Motion",
+          "description": "Motion brings dynamism to an interface, offers visual feedback, and aids merchants understanding the outcomes of their actions.",
+          "order": 6,
+          "slug": "/design/motion",
+          "hideChildren": true,
+          "status": "New",
+          "hideFromNav": false,
+          "children": {
+            "creating-motion": {
+              "title": "Creating Motion",
+              "icon": "TransactionMajor",
+              "description": "Motion brings dynamism to an interface, offers visual feedback and aids merchants understanding the outcomes of their actions.",
+              "slug": "/design/motion/creating-motion",
+              "hideFromNav": false
+            },
+            "using-motion": {
+              "title": "Using Motion",
+              "icon": "PlayMinor",
+              "description": "Motion brings dynamism to an interface, offers visual feedback and aids merchants understanding the outcomes of their actions.",
+              "slug": "/design/motion/using-motion",
+              "hideFromNav": false
+            }
+          }
+        },
+        "pro-design-language": {
+          "title": "Pro design language",
+          "icon": "PaintBrushMajor",
+          "description": "Efficiency, intuition, and style combined to empower merchants with data-rich views, action-driven interfaces, and dynamic interactions.",
+          "order": 1,
+          "slug": "/design/pro-design-language",
+          "status": "New",
+          "hideFromNav": false
+        },
+        "sounds": {
+          "title": "Sounds",
+          "icon": "SoundMajor",
+          "description": "We use sound to communicate information and to enhance how merchants experience the Shopify admin. Sound patterns make interactions easier and more predictable.",
+          "order": 11,
+          "slug": "/design/sounds",
+          "hideFromNav": false
+        },
+        "typography": {
+          "title": "Typography",
+          "icon": "TypeMajor",
+          "description": "Typography is the art of arranging type in ways that provides innate hierarchy to UI.",
+          "order": 7,
+          "slug": "/design/typography",
+          "hideChildren": true,
+          "status": "New",
+          "hideFromNav": false,
+          "children": {
+            "font-and-typescale": {
+              "title": "Font and Typescale",
+              "icon": "TextAlignmentLeftMajor",
+              "description": "Typography is the art of arranging type in ways that provides innate hierarchy to UI.",
+              "order": 1,
+              "slug": "/design/typography/font-and-typescale",
+              "hideChildren": true,
+              "hideFromNav": false
+            },
+            "typography-tokens": {
+              "title": "Tokens",
+              "icon": "Hexagon",
+              "description": "Typography is the art of arranging type in ways that provides innate hierarchy to UI.",
+              "order": 3,
+              "slug": "/design/typography/typography-tokens",
+              "hideChildren": true,
+              "hideFromNav": false
+            },
+            "using-type": {
+              "title": "Using type",
+              "icon": "TypeMajor",
+              "description": "Typography is the art of arranging type in ways that provides innate hierarchy to UI.",
+              "order": 2,
+              "slug": "/design/typography/using-type",
+              "hideChildren": true,
+              "hideFromNav": false
+            }
+          }
+        }
+      }
+    },
+    "foundations": {
+      "title": "Foundations",
+      "icon": "VocabularyMajor",
+      "description": "Polaris is the design system for the Shopify admin. It’s the shared language that guides how we build high-quality merchant experiences.",
+      "order": 2,
+      "slug": "/foundations",
+      "newSection": true,
+      "hideFromNav": false,
+      "children": {
+        "accessibility": {
+          "title": "Accessibility",
+          "icon": "AccessibilityMajor",
+          "description": "Making commerce better for everyone means caring deeply about making quality products. A quality product should have a fantastic user experience (UX).",
+          "slug": "/foundations/accessibility",
+          "hideFromNav": false
+        },
+        "experience-values": {
+          "title": "Shopify experience values",
+          "icon": "HeartMajor",
+          "description": "At Shopify, we empower commerce at a global scale. We build products, tools, and services for people to start, manage, and scale their businesses. We manage enormous complexity for commerce giants, and give new entrepreneurs the best chance to succeed.",
+          "slug": "/foundations/experience-values",
+          "hideFromNav": false
+        },
+        "formatting-localized-currency": {
+          "title": "Formatting localized currency",
+          "icon": "CashYenMajor",
+          "description": "Currencies are formatted differently in different countries and languages.",
+          "slug": "/foundations/formatting-localized-currency",
+          "hideFromNav": false
+        },
+        "information-architecture": {
+          "title": "Information architecture",
+          "icon": "CategoriesMajor",
+          "description": "Everything we create at Shopify has an underlying foundation of information architecture. If you’re a designer, a content strategist, or a UX developer, you’re already doing IA work.",
+          "slug": "/foundations/information-architecture",
+          "hideFromNav": false
+        },
+        "internationalization": {
+          "title": "Internationalization",
+          "icon": "GlobeMajor",
+          "description": "Make commerce better for everyone by building interfaces that work everywhere. These guidelines will help you design, write, and build products that can be used in every part of the world.",
+          "slug": "/foundations/internationalization",
+          "hideFromNav": false
+        }
+      }
+    },
+    "getting-started": {
+      "title": "Getting started",
+      "icon": "HintMajor",
+      "description": "Polaris is the design system for the Shopify admin. If you’re just starting out with Polaris, here’s a list of recommended resources and guidance to get you started.",
+      "order": 1,
+      "slug": "/getting-started",
+      "hideFromNav": false,
+      "children": {
+        "components-lifecycle": {
+          "title": "Component lifecycle",
+          "description": "Polaris components move through a series of stages throughout their lifecycle. Within each stage, a component must meet a set of requirements.",
+          "order": 1,
+          "slug": "/getting-started/components-lifecycle",
+          "hideFromNav": false
+        },
+        "designing-with-a-system": {
+          "title": "Building with Polaris",
+          "order": 3,
+          "slug": "/getting-started/designing-with-a-system",
+          "hideFromNav": false
+        },
+        "polaris-101": {
+          "title": "Polaris 101",
+          "description": "The Polaris design system is used by designers and developers to build world-class Shopify admin experiences.",
+          "order": 0,
+          "slug": "/getting-started/polaris-101",
+          "hideFromNav": false
+        }
+      }
+    },
+    "icons": {
+      "title": "Icons",
+      "icon": "IconsMajor",
+      "description": "Use icons to increase visual appeal and improve navigation, comprehension, and engagement.",
+      "order": 9,
+      "slug": "/icons",
+      "hideFromNav": false
+    },
+    "patterns": {
+      "title": "Patterns",
+      "icon": "BehaviorMajor",
+      "description": "Preferred solutions to common merchant goals in the admin.",
+      "order": 6,
+      "slug": "/patterns",
+      "newSection": true,
+      "hideFromNav": false,
+      "children": {
+        "app-settings-layout": {
+          "title": "App settings layout",
+          "description": "Scan and find groups of settings in apps",
+          "slug": "/patterns/app-settings-layout",
+          "hideFromNav": false
+        },
+        "date-picking": {
+          "title": "Date picking",
+          "description": "Select a date or a date range",
+          "slug": "/patterns/date-picking",
+          "hideFromNav": false
+        },
+        "new-features": {
+          "title": "New features",
+          "description": "Highlight new features for merchants",
+          "slug": "/patterns/new-features",
+          "hideFromNav": false
+        },
+        "resource-details-layout": {
+          "title": "Resource details layout",
+          "description": "Create, view, and edit resource objects",
+          "slug": "/patterns/resource-details-layout",
+          "hideFromNav": false
+        },
+        "resource-index-layout": {
+          "title": "Resource index layout",
+          "description": "Organize and take action on resource objects",
+          "slug": "/patterns/resource-index-layout",
+          "hideFromNav": false
+        }
+      }
+    },
+    "patterns-legacy": {
+      "children": {
+        "loading": {
+          "title": "Loading",
+          "icon": "RefreshMajor",
+          "description": "Navigating the Shopify admin should be fast, meaningful, and focused. Intentional loading states deliver a continuous flow for merchants.",
+          "slug": "/patterns-legacy/loading",
+          "hideFromNav": false
+        },
+        "new-badge": {
+          "title": "New badge",
+          "icon": "StarFilledMinor",
+          "description": "The New badge can be used to inform merchants about the release of a feature that creates new value. It should be used sparingly and for a short time frame.",
+          "slug": "/patterns-legacy/new-badge",
+          "hideFromNav": false
+        },
+        "pickers": {
+          "title": "Pickers",
+          "icon": "LocationMajor",
+          "description": "Picker experiences help merchants browse, find, and select from multiple options. Use them for selecting locations, customer segments, and more.",
+          "slug": "/patterns-legacy/pickers",
+          "hideFromNav": false
+        },
+        "text-fields": {
+          "title": "Text fields",
+          "icon": "FormsMajor",
+          "description": "Text fields combine the field label (the title) and the input area. Inputs can vary from typed text to URLs to date pickers.",
+          "slug": "/patterns-legacy/text-fields",
+          "hideFromNav": false
+        }
+      }
+    },
+    "tokens": {
+      "title": "Tokens",
+      "icon": "EyeDropperMinor",
+      "description": "Tokens are variables that represent design decisions such as color, typography, and spacing, in a consistent and reusable way.",
+      "order": 8,
+      "slug": "/tokens/color",
+      "hideFromNav": false
+    },
+    "tools": {
+      "title": "Tools",
+      "icon": "ToolsMajor",
+      "description": "Extensions, plugins, and other tools to help build with Polaris.",
+      "order": 11,
+      "slug": "/tools",
+      "hideFromNav": false,
+      "children": {
+        "polaris-for-vscode": {
+          "title": "VS Code",
+          "icon": "HintMajor",
+          "description": "Official VS Code extension for building with the Shopify Polaris design system.",
+          "order": 1,
+          "slug": "/tools/polaris-for-vscode",
+          "hideFromNav": false
+        },
+        "polaris-migrator": {
+          "title": "Migrator",
+          "icon": "ReplaceMajor",
+          "description": "Codemod transformations to help upgrade your Polaris codebase.",
+          "order": 3,
+          "slug": "/tools/polaris-migrator",
+          "hideFromNav": false
+        },
+        "sandbox": {
+          "title": "Sandbox",
+          "icon": "SandboxMajor",
+          "description": "Effortless prototyping with Polaris components.",
+          "order": 5,
+          "slug": "/sandbox?code=N4Igxg9gJgpiBcIA8AZGBzAhmAngYUwCcoAdAOwAIKBnGSMqInAMQggBcZCBBMdgSwhlqAXmABtYBXqcy7eBRIgAIv2oBbNdSUUAvgF1d5KgAdC-dU1YcuvAULFSZMOQqUBRAB4mIhdhQAlGB8-HV0jMgA%2BYwpUDGx8IigAOgAJGExYQhiqbHthMXEcqgpgYpLpIVl5RRAAFQ5MABsKAGVmmG0QABpyvV7KEsNigXYmmBEldvGumOjBqiQABQgfADcuPrz%2BDbEAM2baCIrcvh3Mdl8xPsWAIQBXdkvKKDUwJohqe8IYChMmzD8KI3EoANX4MAA7m0OtoFickAB6B5PITzE56PpCPAfWhiAAUAEoKCJIqVwsV0Qi7IIyCg1OwQfxOOpRBInFUXDUlABxQifagwmZhbqlSpyLluEAAORg-mmnTCw3hVERVMWiJW6y4VKRaCwuAIxDSGSyuv1CSNKVadHy6tidRgnnYeCqgLIOr6AE0IPdpJhKPdaDRYRQfiF2ILLjQYL8gXtfJZ8hRMAAjX3%2BHC%2BwjSIOXdRcaiATAIscRCxRU5haFAKEJpOZOOZMDR7mAABYpwXUUMQDY5gQF0WpnDSNsBj1NUW%2BCs4PrUdiYPZ7ZLFJGO52uuTuz2DPXxQ1JZI2s5omJxA2JY3H5OjcaTeqNFoKwW3H6YADWUAgkLISntSCCahszAGB6XnPofiA74QOlTAC0cGggXQe4AUIKVu3GJRRX%2Bb5mnQ2EwmOE5mRgVlChBMoVRODDOilAB5MtCC6AYMQqODfVcWoAFVWmUAASAAGZIBIErCQSob4milABiMSqKoXQWNYyjWJKGjqClIJ2G%2BYQ5NU3J1A47kQAAWh4-iACYAFYhJEvT9MkmT7IxRS%2BmVDEfgYLgAEkWQJEj1GJUlShBeh5zFdTRXY%2B45FFSS9BJCgAoAbhBH5tMISh8XE2JAOA0CGWSXzSJyqh%2BCgMR1OSS4UAgMAOlqyEuAIWgiSI-SKEksRJPa-TsBA6hqH4VN%2BCaZkcBQNMYCaMQAANwShIVOgoBMcz44B1N0WbetU7ExrAd8CSCskwogcZkg%2BdBsvAfb3xgGsAqwpKWUJHaTntVTzwSVoFwOj79K%2B3Afuwd8ipZFbRqaSINthXQ9wvYGDrB0j-s%2Bi0gd%2B0HivUaHorkOHEXRnBEaxllUYRQn92JzHyY1PLoIK%2BdkZxkFCVSqiKXhNUz0pi8rSPW1aXNKn%2BevWkKFvCYlGUDIzjWC57rDYJfEjHQvlTKB7nu-8wPYf7UEK7HIiWTAs0eag9UNsm%2BgNpmjYaBcn1DW4RzwMcyAnS27et%2BEvb1nmidFwXT13QPDzFutJfvaUbD-Vd1xdN0gR3DE6jbX51KViNBSIX5MHl0a03GWsyCaEd%2BD2CgzZzedfDjQVI-Tto21WCvZyo-4A1rHM234dB08IFdfcRBPNwXZPCF1XnLXD4PgTIeGZ%2BIeYehAdh04LagEHEEAPnq8Z4BcEB9G6EBIXK9et-gcRDCAA",
+          "status": "Alpha",
+          "hideFromNav": false
+        },
+        "stylelint-polaris": {
+          "title": "Stylelint",
+          "icon": "WandMajor",
+          "description": "A configuration of Stylelint rules that promote adoption of the Polaris design system in consuming apps.",
+          "order": 4,
+          "slug": "/tools/stylelint-polaris",
+          "hideFromNav": false,
+          "children": {
+            "_postamble": {
+              "slug": "/tools/stylelint-polaris/_postamble",
+              "hideFromNav": false
+            },
+            "_preamble": {
+              "slug": "/tools/stylelint-polaris/_preamble",
+              "hideFromNav": false
+            },
+            "rules": {
+              "title": "Rules",
+              "description": "There are over 40 rules configured in Stylelint Polaris to help you avoid errors and follow stylistic and non-stylistic conventions while building for the Shopify admin. These rules are grouped into categories that help us measure the Polaris design system's coverage in the Shopify admin code base.",
+              "slug": "/tools/stylelint-polaris/rules",
+              "hideChildren": true,
+              "hideFromNav": false,
+              "children": {
+                "border-at-rule-disallowed-list": {
+                  "title": "border/at-rule-disallowed-list",
+                  "description": "Disallows use of legacy Sass border mixins.",
+                  "slug": "/tools/stylelint-polaris/rules/border-at-rule-disallowed-list",
+                  "hideFromNav": false
+                },
+                "border-custom-property-disallowed-list": {
+                  "title": "border/custom-property-disallowed-list",
+                  "description": "Disallows use of legacy border custom properties.",
+                  "slug": "/tools/stylelint-polaris/rules/border-custom-property-disallowed-list",
+                  "hideFromNav": false
+                },
+                "border-declaration-property-unit-disallowed-list": {
+                  "title": "border/declaration-property-unit-disallowed-list",
+                  "description": "Disallows hard-coded `px`, `em`, and `rem` units in border property values.",
+                  "slug": "/tools/stylelint-polaris/rules/border-declaration-property-unit-disallowed-list",
+                  "hideFromNav": false
+                },
+                "border-function-disallowed-list": {
+                  "title": "border/function-disallowed-list",
+                  "description": "Disallows use of legacy Sass border functions.",
+                  "slug": "/tools/stylelint-polaris/rules/border-function-disallowed-list",
+                  "hideFromNav": false
+                },
+                "color-at-rule-disallowed-list": {
+                  "title": "color/at-rule-disallowed-list",
+                  "description": "Disallows use of legacy color mixins.",
+                  "slug": "/tools/stylelint-polaris/rules/color-at-rule-disallowed-list",
+                  "hideFromNav": false
+                },
+                "color-color-named": {
+                  "title": "color/color-named",
+                  "description": "Disallows named colors.",
+                  "slug": "/tools/stylelint-polaris/rules/color-color-named",
+                  "hideFromNav": false
+                },
+                "color-color-no-hex": {
+                  "title": "color/color-no-hex",
+                  "description": "Disallows hex colors.",
+                  "slug": "/tools/stylelint-polaris/rules/color-color-no-hex",
+                  "hideFromNav": false
+                },
+                "color-custom-property-disallowed-list": {
+                  "title": "color/custom-property-disallowed-list",
+                  "description": "Disallows use of legacy color custom properties.",
+                  "slug": "/tools/stylelint-polaris/rules/color-custom-property-disallowed-list",
+                  "hideFromNav": false
+                },
+                "color-function-disallowed-list": {
+                  "title": "color/function-disallowed-list",
+                  "description": "Disallows allows use of built in and legacy color functions.",
+                  "slug": "/tools/stylelint-polaris/rules/color-function-disallowed-list",
+                  "hideFromNav": false
+                },
+                "color-global-disallowed-list": {
+                  "title": "color/global-disallowed-list",
+                  "description": "Disallows use of legacy color Sass APIs.",
+                  "slug": "/tools/stylelint-polaris/rules/color-global-disallowed-list",
+                  "hideFromNav": false
+                },
+                "conventions-custom-property-allowed-list": {
+                  "title": "conventions/custom-property-allowed-list",
+                  "description": "Allows definition of custom properties not using Polaris prefixes, flags declaration property values that are not valid Polaris tokens, flags declaration property values using private tokens.",
+                  "slug": "/tools/stylelint-polaris/rules/conventions-custom-property-allowed-list",
+                  "hideFromNav": false
+                },
+                "conventions-selector-disallowed-list": {
+                  "title": "conventions/selector-disallowed-list",
+                  "description": "Disallows overrides of Polaris component styles.",
+                  "slug": "/tools/stylelint-polaris/rules/conventions-selector-disallowed-list",
+                  "hideFromNav": false
+                },
+                "layout-at-rule-disallowed-list": {
+                  "title": "layout/at-rule-disallowed-list",
+                  "description": "Disallows use of legacy Sass mixins.",
+                  "slug": "/tools/stylelint-polaris/rules/layout-at-rule-disallowed-list",
+                  "hideFromNav": false
+                },
+                "layout-custom-property-disallowed-list": {
+                  "title": "layout/custom-property-disallowed-list",
+                  "description": "Disallows use of legacy layout custom properties.",
+                  "slug": "/tools/stylelint-polaris/rules/layout-custom-property-disallowed-list",
+                  "hideFromNav": false
+                },
+                "layout-declaration-property-value-disallowed-list": {
+                  "title": "layout/declaration-property-value-disallowed-list",
+                  "description": "Disallows declaration of positioning and dimension property values with Polaris tokens.",
+                  "slug": "/tools/stylelint-polaris/rules/layout-declaration-property-value-disallowed-list",
+                  "hideFromNav": false
+                },
+                "layout-function-disallowed-list": {
+                  "title": "layout/function-disallowed-list",
+                  "description": "Disallows use of internal Sass layout functions.",
+                  "slug": "/tools/stylelint-polaris/rules/layout-function-disallowed-list",
+                  "hideFromNav": false
+                },
+                "layout-global-disallowed-list": {
+                  "title": "layout/global-disallowed-list",
+                  "description": "Disallows use of legacy layout Sass APIs.",
+                  "slug": "/tools/stylelint-polaris/rules/layout-global-disallowed-list",
+                  "hideFromNav": false
+                },
+                "layout-property-disallowed-list": {
+                  "title": "layout/property-disallowed-list",
+                  "description": "Disallows declarations of layout properties.",
+                  "slug": "/tools/stylelint-polaris/rules/layout-property-disallowed-list",
+                  "hideFromNav": false
+                },
+                "legacy-at-rule-disallowed-list": {
+                  "title": "legacy/at-rule-disallowed-list",
+                  "description": "Disallows use of legacy Sass mixins.",
+                  "slug": "/tools/stylelint-polaris/rules/legacy-at-rule-disallowed-list",
+                  "hideFromNav": false
+                },
+                "legacy-function-disallowed-list": {
+                  "title": "legacy/function-disallowed-list",
+                  "description": "Disallows use off legacy Sass functions.",
+                  "slug": "/tools/stylelint-polaris/rules/legacy-function-disallowed-list",
+                  "hideFromNav": false
+                },
+                "legacy-global-disallowed-list": {
+                  "title": "legacy/global-disallowed-list",
+                  "description": "Disallows use of legacy custom properties and Sass mixin map data.",
+                  "slug": "/tools/stylelint-polaris/rules/legacy-global-disallowed-list",
+                  "hideFromNav": false
+                },
+                "media-queries-at-rule-disallowed-list": {
+                  "title": "media-queries/at-rule-disallowed-list",
+                  "description": "Disallows use of legacy breakpoint Sass mixins.",
+                  "slug": "/tools/stylelint-polaris/rules/media-queries-at-rule-disallowed-list",
+                  "hideFromNav": false
+                },
+                "media-queries-function-disallowed-list": {
+                  "title": "media-queries/function-disallowed-list",
+                  "description": "Disallows use of legacy breakpoint sass functions.",
+                  "slug": "/tools/stylelint-polaris/rules/media-queries-function-disallowed-list",
+                  "hideFromNav": false
+                },
+                "media-queries-media-queries-allowed-list": {
+                  "title": "media-queries/media-queries-allowed-list",
+                  "description": "Allows declaration of `print` and `screen` `@media` queries, allows `@media` queries for `forced-colors` and `ms-high-contrast` features, allows `@media` queries using Polaris breakpoints.",
+                  "slug": "/tools/stylelint-polaris/rules/media-queries-media-queries-allowed-list",
+                  "hideFromNav": false
+                },
+                "motion-at-rule-disallowed-list": {
+                  "title": "motion/at-rule-disallowed-list",
+                  "description": "Disallows use of CSS @keyframes.",
+                  "slug": "/tools/stylelint-polaris/rules/motion-at-rule-disallowed-list",
+                  "hideFromNav": false
+                },
+                "motion-custom-property-disallowed-list": {
+                  "title": "motion/custom-property-disallowed-list",
+                  "description": "Disallows use of legacy motion custom properties.",
+                  "slug": "/tools/stylelint-polaris/rules/motion-custom-property-disallowed-list",
+                  "hideFromNav": false
+                },
+                "motion-declaration-property-unit-disallowed-list": {
+                  "title": "motion/declaration-property-unit-disallowed-list",
+                  "description": "Disallows use of hard-coded millisecond `ms` and second `s` values on transition and animation properties.",
+                  "slug": "/tools/stylelint-polaris/rules/motion-declaration-property-unit-disallowed-list",
+                  "hideFromNav": false
+                },
+                "motion-function-disallowed-list": {
+                  "title": "motion/function-disallowed-list",
+                  "description": "Disallows use of legacy Sass motion functions.",
+                  "slug": "/tools/stylelint-polaris/rules/motion-function-disallowed-list",
+                  "hideFromNav": false
+                },
+                "motion-global-disallowed-list": {
+                  "title": "motion/global-disallowed-list",
+                  "description": "Disallows use of legacy motion Sass APIs.",
+                  "slug": "/tools/stylelint-polaris/rules/motion-global-disallowed-list",
+                  "hideFromNav": false
+                },
+                "shadow-custom-property-disallowed-list": {
+                  "title": "shadow/custom-property-disallowed-list",
+                  "description": "Disallows use of legacy shadow custom properties.",
+                  "slug": "/tools/stylelint-polaris/rules/shadow-custom-property-disallowed-list",
+                  "hideFromNav": false
+                },
+                "shadow-declaration-property-unit-disallowed-list": {
+                  "title": "shadow/declaration-property-unit-disallowed-list",
+                  "description": "Disallows box-shadow declarations with hard coded px, rem, or em units.",
+                  "slug": "/tools/stylelint-polaris/rules/shadow-declaration-property-unit-disallowed-list",
+                  "hideFromNav": false
+                },
+                "shadow-function-disallowed-list": {
+                  "title": "shadow/function-disallowed-list",
+                  "description": "Disallows use of built-in and legacy shadow functions.",
+                  "slug": "/tools/stylelint-polaris/rules/shadow-function-disallowed-list",
+                  "hideFromNav": false
+                },
+                "shadow-global-disallowed-list": {
+                  "title": "shadow/global-disallowed-list",
+                  "description": "Disallows use of legacy shadow Sass APIs.",
+                  "slug": "/tools/stylelint-polaris/rules/shadow-global-disallowed-list",
+                  "hideFromNav": false
+                },
+                "shadow-property-disallowed-list": {
+                  "title": "shadow/property-disallowed-list",
+                  "description": "Disallows text shadow property.",
+                  "slug": "/tools/stylelint-polaris/rules/shadow-property-disallowed-list",
+                  "hideFromNav": false
+                },
+                "space-custom-property-disallowed-list": {
+                  "title": "space/custom-property-disallowed-list",
+                  "description": "Disallows use of legacy space custom properties.",
+                  "slug": "/tools/stylelint-polaris/rules/space-custom-property-disallowed-list",
+                  "hideFromNav": false
+                },
+                "space-declaration-property-unit-disallowed-list": {
+                  "title": "space/declaration-property-unit-disallowed-list",
+                  "description": "Disallows use of hard-coded px, em, and rem values on gap, margin, and padding properties.",
+                  "slug": "/tools/stylelint-polaris/rules/space-declaration-property-unit-disallowed-list",
+                  "hideFromNav": false
+                },
+                "space-function-disallowed-list": {
+                  "title": "space/function-disallowed-list",
+                  "description": "Disallows use of legacy Sass space functions.",
+                  "slug": "/tools/stylelint-polaris/rules/space-function-disallowed-list",
+                  "hideFromNav": false
+                },
+                "space-global-disallowed-list": {
+                  "title": "space/global-disallowed-list",
+                  "description": "Disallows use of legacy spacing Sass APIs.",
+                  "slug": "/tools/stylelint-polaris/rules/space-global-disallowed-list",
+                  "hideFromNav": false
+                },
+                "typography-at-rule-disallowed-list": {
+                  "title": "typography/at-rule-disallowed-list",
+                  "description": "Disallows use of legacy Sass typography mixins.",
+                  "slug": "/tools/stylelint-polaris/rules/typography-at-rule-disallowed-list",
+                  "hideFromNav": false
+                },
+                "typography-declaration-property-unit-disallowed-list": {
+                  "title": "typography/declaration-property-unit-disallowed-list",
+                  "description": "Disallows hard-coded `px`, `em`, and `rem` values for font-size and line-height properties.",
+                  "slug": "/tools/stylelint-polaris/rules/typography-declaration-property-unit-disallowed-list",
+                  "hideFromNav": false
+                },
+                "typography-declaration-property-value-disallowed-list": {
+                  "title": "typography/declaration-property-value-disallowed-list",
+                  "description": "Disallows hard-coded alphanumeric font-weight values.",
+                  "slug": "/tools/stylelint-polaris/rules/typography-declaration-property-value-disallowed-list",
+                  "hideFromNav": false
+                },
+                "typography-function-disallowed-list": {
+                  "title": "typography/function-disallowed-list",
+                  "description": "Disallows use of legacy Sass typography functions.",
+                  "slug": "/tools/stylelint-polaris/rules/typography-function-disallowed-list",
+                  "hideFromNav": false
+                },
+                "typography-global-disallowed-list": {
+                  "title": "typography/global-disallowed-list",
+                  "description": "Disallows use of legacy typography Sass APIs.",
+                  "slug": "/tools/stylelint-polaris/rules/typography-global-disallowed-list",
+                  "hideFromNav": false
+                },
+                "z-index-custom-property-disallowed-list": {
+                  "title": "z-index/custom-property-disallowed-list",
+                  "description": "Disallows use of legacy z-index custom properties.",
+                  "slug": "/tools/stylelint-polaris/rules/z-index-custom-property-disallowed-list",
+                  "hideFromNav": false
+                },
+                "z-index-declaration-property-value-allowed-list": {
+                  "title": "z-index/declaration-property-value-allowed-list",
+                  "description": "Disallows declaration of `z-index` values that are not Polaris z-index tokens.",
+                  "slug": "/tools/stylelint-polaris/rules/z-index-declaration-property-value-allowed-list",
+                  "hideFromNav": false
+                },
+                "z-index-function-disallowed-list": {
+                  "title": "z-index/function-disallowed-list",
+                  "description": "Disallows use of the legacy z-index Sass function.",
+                  "slug": "/tools/stylelint-polaris/rules/z-index-function-disallowed-list",
+                  "hideFromNav": false
+                },
+                "z-index-global-disallowed-list": {
+                  "title": "z-index/global-disallowed-list",
+                  "description": "Disallows use of legacy z-index Sass APIs.",
+                  "slug": "/tools/stylelint-polaris/rules/z-index-global-disallowed-list",
+                  "hideFromNav": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "version-guides": {
+      "title": "Version guides",
+      "description": "Guides for upgrading apps to major versions.",
+      "order": 12,
+      "slug": "/version-guides",
+      "hideFromNav": false,
+      "children": {
+        "migrating-from-v11-to-v12": {
+          "title": "v12",
+          "icon": "ColorsMajor",
+          "description": "Polaris v12.0.0 prop replacement, removal of components, renamed components, and token changes.",
+          "order": 1,
+          "slug": "/version-guides/migrating-from-v11-to-v12",
+          "hideFromNav": false
+        }
+      }
+    },
+    "whats-new": {
+      "title": "What’s new",
+      "icon": "EmailNewsletterMajor",
+      "description": "Learn about the latest Polaris updates",
+      "order": 0,
+      "slug": "/whats-new",
+      "hideChildren": true,
+      "hideFromNav": false,
+      "children": {
+        "uplifting-shopify-polaris": {
+          "title": "Uplifting Shopify Polaris",
+          "description": "The process of evolving a large scale design system.",
+          "order": 1,
+          "slug": "https://ux.shopify.com/uplifting-shopify-polaris-7c54fc6564d9",
+          "hideFromNav": false
+        },
+        "version-10-typography": {
+          "title": "Version 10 Typography",
+          "description": "Learn about what changes are coming to Polaris typography.",
+          "slug": "/whats-new/version-10-typography",
+          "hideFromNav": false
+        },
+        "version-11-color": {
+          "title": "Version 11 Color",
+          "description": "Learn about what changes were introduced to color in Polaris v11.",
+          "slug": "/whats-new/version-11-color",
+          "hideFromNav": false
+        },
+        "version-11-layout": {
+          "title": "Version 11 Layout",
+          "description": "Start using the new Polaris layout components.",
+          "slug": "/whats-new/version-11-layout",
+          "hideFromNav": false
+        },
+        "version-11-tokens": {
+          "title": "Version 11 Tokens",
+          "description": "Crafting a more robust and cohesive token system in Polaris.",
+          "slug": "/whats-new/version-11-tokens",
+          "hideFromNav": false
+        },
+        "version-12": {
+          "title": "Version 12",
+          "description": "This version introduces Shopify's new admin design language, refined tokens, aligned component APIs, and an updated Figma UI kit.",
+          "order": 0,
+          "slug": "/whats-new/version-12",
+          "hideFromNav": false
+        }
+      }
     }
+  }
 }

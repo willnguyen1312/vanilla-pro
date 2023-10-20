@@ -33,11 +33,11 @@ function lessContent() {
 }
 
 const moreContentButton = document.getElementById(
-  "more-content"
+  "more-content",
 ) as HTMLButtonElement;
 moreContentButton.addEventListener("click", moreContent);
 
 const lessContentButton = document.getElementById(
-  "less-content"
+  "less-content",
 ) as HTMLButtonElement;
 lessContentButton.addEventListener("click", lessContent);

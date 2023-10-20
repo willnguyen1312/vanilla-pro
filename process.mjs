@@ -50,5 +50,5 @@ import fs from "fs";
 
 fs.writeFileSync(
   "./output.json",
-  JSON.stringify(listOfComponentNamesInPascalCase, null, 2)
+  JSON.stringify(listOfComponentNamesInPascalCase, null, 2),
 );

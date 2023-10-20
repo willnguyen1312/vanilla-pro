@@ -4,7 +4,7 @@ type WorkerModule = typeof import("./worker");
 
 // Create Worker
 const workerInstance = new ComlinkWorker<WorkerModule>(
-  new URL("./worker", import.meta.url)
+  new URL("./worker", import.meta.url),
 );
 
 export const callback = (string: string) => console.log(string);
