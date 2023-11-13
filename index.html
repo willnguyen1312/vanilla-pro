@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,13 +7,21 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app">
+    <!-- <div id="app">
       <div id="parentElement">
         <div id="childElement"></div>
       </div>
       <button id="more-content">Add more content</button>
       <button id="less-content">Add less content</button>
+    </div> -->
+
+    <canvas id="canvas" width="300" height="300"></canvas><br />
+
+    <div>
+      <button id="clockwise">Rotate right</button>
+      <button id="counterclockwise">Rotate left</button>
     </div>
-    <script type="module" src="/src/mainWorker.ts"></script>
+    <img id="croppedImage" />
+    <script type="module" src="/src/rotateCanvas.ts"></script>
   </body>
 </html>
