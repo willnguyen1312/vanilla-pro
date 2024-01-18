@@ -16,7 +16,7 @@ const state = new Proxy(
       onSet(prop, value);
       return true;
     },
-  }
+  },
 );
 
 function onGet(prop) {
