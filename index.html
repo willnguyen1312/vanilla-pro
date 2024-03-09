@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -25,8 +25,41 @@
     <img id="croppedImage" />
     <script type="module" src="/src/rotateCanvas.ts"></script> -->
 
-    <h1>Hi babe</h1>
+    <!-- <h1>Hi babe</h1>
     <button id="button">Click me</button>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/main.ts"></script> -->
+
+    <!-- https://jamesrwilliams.ca/posts/css-wheel-of-fortune -->
+    <div class="container">
+      <div class="board">
+        <div class="spinner-table">
+          <div class="dial">
+            <div class="slice"><div class="label">1</div></div>
+            <div class="slice"><div class="label">2</div></div>
+            <div class="slice"><div class="label">3</div></div>
+            <div class="slice"><div class="label">4</div></div>
+            <div class="slice"><div class="label">5</div></div>
+            <div class="slice"><div class="label">6</div></div>
+            <div class="slice"><div class="label">7</div></div>
+            <div class="slice"><div class="label">8</div></div>
+            <div class="slice"><div class="label">9</div></div>
+            <div class="slice"><div class="label">10</div></div>
+            <div class="slice"><div class="label">11</div></div>
+            <div class="slice"><div class="label">12</div></div>
+          </div>
+        </div>
+        <div class="arrow">
+          <span class="pointer"></span>
+        </div>
+      </div>
+
+      <div class="content-container">
+        <div class="pre">
+          <button id="spin">Spin</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/spin.ts"></script>
   </body>
 </html>
