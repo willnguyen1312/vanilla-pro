@@ -1,0 +1,43 @@
+/* Declare CSS variable */
+:root {
+  --pie-sector: 120deg;
+}
+
+.pie {
+  width: 300px;
+  height: 300px;
+
+  border-radius: 50%;
+  background-image: conic-gradient(pink 120deg, transparent 0);
+}
+
+/* .pie2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  border-radius: 50%;
+  background-image: conic-gradient(red var(--pie-sector), transparent 0);
+
+  transform-origin: center;
+}
+
+.pie3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  border-radius: 50%;
+  background-image: conic-gradient(blue var(--pie-sector), transparent 0);
+
+  transform-origin: center;
+} */
+
+.parent {
+  position: relative;
+  width: 300px;
+  height: 300px;
+
+  /* transition: rotate 5s cubic-bezier(0.44, -0.205, 0, 1.13); */
+  /* rotate: 3000deg; */
+}
