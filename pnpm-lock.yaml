@@ -15,14 +15,14 @@ devDependencies:
     specifier: ^1.71.1
     version: 1.71.1
   typescript:
-    specifier: ^5.3.3
-    version: 5.3.3
+    specifier: ^5.4.2
+    version: 5.4.2
   vite:
-    specifier: ^5.0.11
-    version: 5.0.11(sass@1.71.1)
+    specifier: ^5.1.5
+    version: 5.1.5(sass@1.71.1)
   vite-plugin-comlink:
     specifier: ^4.0.2
-    version: 4.0.2(comlink@4.4.1)(vite@5.0.11)
+    version: 4.0.2(comlink@4.4.1)(vite@5.1.5)
 
 packages:
   /@esbuild/android-arm64@0.19.8:
@@ -1875,10 +1875,10 @@ packages:
     engines: { node: ">=0.10.0" }
     dev: true
 
-  /postcss@8.4.32:
+  /postcss@8.4.35:
     resolution:
       {
-        integrity: sha512-D/kj5JNu6oo2EIy+XL/26JEDTlIbB8hw85G8StOE6L74RQAVVP5rej6wxCNqyMbR4RkPfqvezVbPw81Ngd6Kcw==,
+        integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==,
       }
     engines: { node: ^10 || ^12 || >=14 }
     dependencies:
@@ -2338,10 +2338,10 @@ packages:
     engines: { node: ">=0.6" }
     dev: true
 
-  /typescript@5.3.3:
+  /typescript@5.4.2:
     resolution:
       {
-        integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==,
+        integrity: sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==,
       }
     engines: { node: ">=14.17" }
     hasBin: true
@@ -2442,7 +2442,7 @@ packages:
     engines: { node: ">= 0.8" }
     dev: true
 
-  /vite-plugin-comlink@4.0.2(comlink@4.4.1)(vite@5.0.11):
+  /vite-plugin-comlink@4.0.2(comlink@4.4.1)(vite@5.1.5):
     resolution:
       {
         integrity: sha512-3XZmJ7hqLj4ZdDCfbUSyjnCZVrXpah2wDhHaoJw3gUIfh6bDYzli7ptpPnjnLWG4SptLCxSneGC7ARTP5+u1Wg==,
@@ -2455,13 +2455,13 @@ packages:
       json5: 2.2.3
       magic-string: 0.30.5
       source-map: 0.7.4
-      vite: 5.0.11(sass@1.71.1)
+      vite: 5.1.5(sass@1.71.1)
     dev: true
 
-  /vite@5.0.11(sass@1.71.1):
+  /vite@5.1.5(sass@1.71.1):
     resolution:
       {
-        integrity: sha512-XBMnDjZcNAw/G1gEiskiM1v6yzM4GE5aMGvhWTlHAYYhxb7S3/V1s3m2LDHa8Vh6yIWYYB0iJwsEaS523c4oYA==,
+        integrity: sha512-BdN1xh0Of/oQafhU+FvopafUp6WaYenLU/NFoL5WyJL++GxkNfieKzBhM24H3HVsPQrlAqB7iJYTHabzaRed5Q==,
       }
     engines: { node: ^18.0.0 || >=20.0.0 }
     hasBin: true
@@ -2490,7 +2490,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.19.8
-      postcss: 8.4.32
+      postcss: 8.4.35
       rollup: 4.7.0
       sass: 1.71.1
     optionalDependencies:
