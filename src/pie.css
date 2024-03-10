@@ -1,43 +1,78 @@
-/* Declare CSS variable */
-:root {
-  --pie-sector: 120deg;
-}
-
 .pie {
-  width: 300px;
   height: 300px;
+  width: 600px;
+  overflow: hidden;
+  position: absolute;
+  transform-origin: 50% 100%;
 
-  border-radius: 50%;
-  background-image: conic-gradient(pink 120deg, transparent 0);
+  &:before {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    content: "";
+    border-radius: 300px 300px 0 0;
+    transform-origin: 50% 100%;
+    transform: rotate(90deg);
+  }
 }
 
-/* .pie2 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+.pie1 {
+  &:before {
+    background-color: red;
+  }
+}
 
-  border-radius: 50%;
-  background-image: conic-gradient(red var(--pie-sector), transparent 0);
-
-  transform-origin: center;
+.pie2 {
+  &:before {
+    background-color: green;
+  }
+  transform: rotate(90deg);
 }
 
 .pie3 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  transform: rotate(180deg);
+  &:before {
+    background-color: blue;
+  }
+}
 
-  border-radius: 50%;
-  background-image: conic-gradient(blue var(--pie-sector), transparent 0);
-
-  transform-origin: center;
-} */
+.pie4 {
+  transform: rotate(270deg);
+  &:before {
+    background-color: pink;
+  }
+}
 
 .parent {
+  width: 600px;
+  height: 600px;
   position: relative;
-  width: 300px;
-  height: 300px;
 
-  /* transition: rotate 5s cubic-bezier(0.44, -0.205, 0, 1.13); */
-  /* rotate: 3000deg; */
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  animation-name: spinning;
+  animation-timing-function: cubic-bezier(0.44, -0.205, 0, 1.13);
+
+  /* animation: spinning 5s forwards ease-in-out; */
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(4900deg);
+  }
+}
+
+.content {
+  display: grid;
+  place-content: center;
+  z-index: 999;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  rotate: -45deg;
+  font-size: xx-large;
+  font-weight: bold;
 }
