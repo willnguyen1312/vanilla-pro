@@ -63,7 +63,8 @@
     transform: rotate(0);
   }
   to {
-    transform: rotate(10000deg);
+    /* https://stackoverflow.com/a/28783766 */
+    /* transform: rotate(10000deg); */
   }
 }
 
