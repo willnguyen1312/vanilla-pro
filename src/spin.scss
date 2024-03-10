@@ -10,10 +10,10 @@ body {
 	margin: 2rem auto;
 }
 
-$diameter: 360px;
+$diameter: 350px;
 $numberOfSlices: 12;
 $radius: ($diameter / 2);
-$circumfrance: (3.14159 * 2 * $radius);
+$circumfrance: (6.283185307 * $radius);
 $sliceHeight: ($circumfrance / $numberOfSlices);
 $sliceOffeset: ($sliceHeight / 2);
 $sliceColor: #095B8D;
