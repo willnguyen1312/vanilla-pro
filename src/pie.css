@@ -48,10 +48,12 @@
   height: 600px;
   position: relative;
 
-  animation-duration: 7s;
-  animation-fill-mode: forwards;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
   animation-name: spinning;
-  animation-timing-function: cubic-bezier(0.44, -0.205, 0, 1.13);
+  animation-timing-function: linear;
+  /* animation-timing-function: cubic-bezier(0.44, -0.205, 0, 1.13); */
 
   /* animation: spinning 5s forwards ease-in-out; */
 }
@@ -61,7 +63,7 @@
     transform: rotate(0);
   }
   to {
-    transform: rotate(4900deg);
+    transform: rotate(10000deg);
   }
 }
 
