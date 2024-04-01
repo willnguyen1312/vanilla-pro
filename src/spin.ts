@@ -1,9 +1,3 @@
-import "./spin.scss";
-
-const spinButton = document.getElementById("spin");
-const dial = document.querySelector(".dial");
-
-spinButton?.addEventListener("click", () => {
-  dial?.classList.toggle("spinning");
-  document.querySelector("content-container")?.classList.toggle("activated");
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:be53a034aee1b5e0b1d7a321bae19c1a8faba5ddc5b906d897f25ff7280409cb
+size 288

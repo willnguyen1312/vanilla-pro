@@ -1,10 +1,3 @@
-/// <reference lib="webworker" />
-declare const self: DedicatedWorkerGlobalScope;
-
-export const add = (a: number, b: number) => a + b;
-
-type Callback = typeof import("./mainWorker").callback;
-
-export async function executeCallback(callback: Callback) {
-  callback("A string from a worker");
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f33d5ec60980f965db03a5bb46a52c2913a6cb0aaa17cd082415d0da70bf2a5c
+size 293

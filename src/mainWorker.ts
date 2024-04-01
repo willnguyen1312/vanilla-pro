@@ -1,21 +1,3 @@
-import * as Comlink from "comlink";
-
-type WorkerModule = typeof import("./worker");
-
-// Create Worker
-const workerInstance = new ComlinkWorker<WorkerModule>(
-  new URL("./worker", import.meta.url),
-);
-
-export const callback = (string: string) => console.log(string);
-
-async function run() {
-  const result = await workerInstance.add(2, 3);
-  console.log(result);
-
-  const proxiedCallback = Comlink.proxy(callback);
-
-  await workerInstance.executeCallback(proxiedCallback);
-}
-
-run();
+version https://git-lfs.github.com/spec/v1
+oid sha256:fada2d19b0637a3cff7140ed237999128f6f49790150fd02055188c5c46a63f0
+size 483
