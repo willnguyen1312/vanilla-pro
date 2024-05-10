@@ -2,12 +2,12 @@ import "./rotateCanvas.css";
 
 const canvas = document.getElementById("canvas") as HTMLCanvasElement;
 const croppedImage = document.getElementById(
-  "croppedImage"
+  "croppedImage",
 ) as HTMLImageElement;
 const clockWise = document.getElementById("clockwise") as HTMLButtonElement;
 const tab = document.getElementById("tab") as HTMLButtonElement;
 const counterClockWise = document.getElementById(
-  "counterclockwise"
+  "counterclockwise",
 ) as HTMLButtonElement;
 const ctx = canvas.getContext("2d");
 
@@ -18,7 +18,7 @@ image.onload = function () {
   ctx!.drawImage(
     image,
     canvas.width / 2 - image.width / 2,
-    canvas.height / 2 - image.width / 2
+    canvas.height / 2 - image.width / 2,
   );
 };
 image.src = "/dog.jpeg";
