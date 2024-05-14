@@ -12,7 +12,7 @@
   "devDependencies": {
     "comlink": "^4.4.1",
     "live-server": "^1.2.2",
-    "sass": "^1.77.0",
+    "sass": "^1.77.1",
     "typescript": "^5.4.5",
     "vite": "^5.2.11",
     "vite-plugin-comlink": "^4.0.3"
