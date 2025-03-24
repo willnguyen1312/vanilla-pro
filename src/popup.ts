@@ -22,10 +22,10 @@ function openWin(ev) {
   let win = window.open(
     "",
     null,
-    "popup,width=400,height=400,left=300,top=500"
+    "popup,width=400,height=400,left=300,top=500",
   );
   win.document.write(
-    "<html><head><title>Sample</title></head><body>Sample</body></html>"
+    "<html><head><title>Sample</title></head><body>Sample</body></html>",
   );
   // win.onload = () => {
   // let timmy = setInterval(() => {
