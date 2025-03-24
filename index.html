@@ -7,62 +7,16 @@
     <title>Force Horizontal Scrollbar Example</title>
 
     <style>
-      .anchor {
-        font-size: 1.8rem;
-        color: white;
-        text-shadow: 1px 1px 1px black;
-        background-color: hsl(240 100% 75%);
-        width: fit-content;
-        border-radius: 10px;
-        border: 1px solid black;
-        padding: 3px;
-        anchor-name: --myAnchor;
-      }
-
-      body {
-        width: 50%;
-        margin: 0 auto;
-      }
-
-      .infobox {
-        color: darkblue;
-        background-color: azure;
-        border: 1px solid #ddd;
-        padding: 10px;
-        border-radius: 10px;
-        font-size: 1rem;
-      }
-
-      .infobox {
-        position: fixed;
-        position-anchor: --myAnchor;
-        position-area: bottom span-left;
-        margin: 0;
-        margin-top: 5px;
-      }
+      /* 😎 */
     </style>
   </head>
   <body>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim
-      ut tellus elementum sagittis vitae et.
-    </p>
-
-    <button class="anchor" popovertarget="infobox">⚓︎</button>
-
-    <div class="infobox" popover id="infobox">
-      <button popovertarget="infobox">Hit me</button>
-
-      <p>This is an information box.</p>
+    <div onmouseenter="console.log('enter')" class="parent">
+      <div class="child">
+        Sun 😎 <span>fun 🌞</span>
+      </div>
     </div>
 
-    <button popovertarget="infobox">Hit me too</button>
-
-    <!-- <div class="scroll-container">
-      <div style="width: 2000px">Content goes here.</div>
-    </div>
-
-    <script type="module" src="/src/main.ts"></script> -->
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
